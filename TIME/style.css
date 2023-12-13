@@ -3,56 +3,11 @@
   padding: 0;
 }
 
-.navbar1 {
-  padding: 20px 50px;
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-.navbar1 p {
-  margin-top: 5px;
-  font-size: 1.1em;
-  font-weight: 800;
-  color: red;
-}
-.navbar1 h1 {
-  font-size: 2em;
-  font-weight: 700;
-  color: red;
-  margin-right: 30px;
-}
-.navbar1 #signin {
-  width: auto;
-  border-radius: 2px;
-  background-color: white;
-  color: red;
-  font-weight: 600;
-  margin: 0 14px 0 0;
-  padding: 8px 16px 8px 16px;
-}
-.navbar1 #signin:hover {
-  cursor: pointer;
-}
-.navbar1 #subscribe {
-  width: auto;
-  border-radius: 2px;
-  background-color: red;
-  color: white;
-  font-weight: 600;
-  padding: 8px 24px;
-}
-.navbar1 #subscribe:hover {
-  cursor: pointer;
+.section10 {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.navbar2 {
-  padding: 0 50px;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-/*# sourceMappingURL=style.css.map */
+.section10 > div hr {
+  border-top: 2px solid black;
+}/*# sourceMappingURL=style.css.map */
