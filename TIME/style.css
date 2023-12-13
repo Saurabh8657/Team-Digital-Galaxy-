@@ -3,56 +3,377 @@
   padding: 0;
 }
 
-.navbar1 {
-  padding: 20px 50px;
-  height: 20px;
+.section7 {
+  padding: 10px 10px 10px 15px;
+  text-align: center;
+  background-color: #191919;
+}
+.section7 div:nth-child(1) {
+  margin-bottom: 20px;
+}
+.section7 div:nth-child(1) span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #e90606;
+}
+.section7 div:nth-child(2) {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
 }
-.navbar1 p {
-  margin-top: 5px;
-  font-size: 1.1em;
-  font-weight: 800;
-  color: red;
+.section7 div:nth-child(2) img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.6s;
 }
-.navbar1 h1 {
-  font-size: 2em;
-  font-weight: 700;
-  color: red;
-  margin-right: 30px;
-}
-.navbar1 #signin {
-  width: auto;
-  border-radius: 2px;
-  background-color: white;
-  color: red;
-  font-weight: 600;
-  margin: 0 14px 0 0;
-  padding: 8px 16px 8px 16px;
-}
-.navbar1 #signin:hover {
+.section7 div:nth-child(2) img:hover {
   cursor: pointer;
-}
-.navbar1 #subscribe {
-  width: auto;
-  border-radius: 2px;
-  background-color: red;
-  color: white;
-  font-weight: 600;
-  padding: 8px 24px;
-}
-.navbar1 #subscribe:hover {
-  cursor: pointer;
+  transform: scale(1.06);
+  border: 2px solid red;
 }
 
-.navbar2 {
-  padding: 0 50px;
-  height: 40px;
+.section8 {
+  margin-top: 50px;
+  margin-left: 300px;
+  border: 1px solid black;
+  width: 900px;
+  height: 200px;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+.section8 > div:nth-child(1) {
+  width: 1000px;
+  height: 150px;
+  background-color: rgb(240, 241, 242);
+  position: absolute;
+  left: 250px;
+  top: 765px;
+}
+.section8 div:nth-child(2) {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 80px;
+  left: 90px;
+  font-size: large;
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+}
+.section8 button {
+  position: relative;
+  left: 700px;
+  font-weight: bold;
+  bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20%;
+  font-family: "Roboto Condensed", "Arial Narrow", arial, sans-serif;
+  border: none;
+  background-color: red;
+  color: white;
+  transition: transform 0.2s;
+}
+.section8 button:hover {
+  background-color: white;
+  color: red;
+  border: rgb(239, 236, 236);
+  transform: scale(1.05);
+}
+.section8 .fa-paper-plane {
+  position: relative;
+  bottom: 100px;
+  right: 60px;
+  font-size: 100px;
+  transition: transform 0.9s;
+  animation: scaleAnimation 0.9s infinite alternate;
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.06);
+  }
+}
+
+.section9 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+  cursor: pointer;
+}
+.section9 > div:nth-child(1) {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+.section9 > div:nth-child(1) div:nth-child(1) {
+  font-family: Oswald, Lora, georgia, times, serif;
+  font-size: 36px;
+  font-weight: 400px;
+  color: black;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.section9 > div:nth-child(1) div:nth-child(2) {
+  margin-left: 740px;
+  color: red;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+.section9 > div:nth-child(2) {
+  position: relative;
+  top: 30px;
+  width: 1240px;
+  display: grid;
+  grid-template-areas: "b1 b1 b2 b3" "b1 b1 b4 b5";
+  gap: 25px;
+  margin: auto;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) {
+  grid-area: b1;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) img {
+  width: 100%;
+  height: 65%;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: "PT Serif", georgia, times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  margin-top: 25px;
+  transition: transform 0.1s;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) h2:hover {
+  color: red;
+  transform: scale(1.02);
+}
+.section9 > div:nth-child(2) > div:nth-child(1) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
   font-size: 20px;
+  line-height: 28px;
+  color: rgb(99, 83, 103);
+  margin-top: 20px;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) {
+  grid-area: b2;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
   margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(3) {
+  grid-area: b3;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) img {
+  width: 100%;
+  height: 75%;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(4) {
+  grid-area: b4;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(5) {
+  grid-area: b5;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+
+.section10 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: auto;
+  cursor: pointer;
+}
+.section10 > div:nth-child(1) {
+  display: flex;
+}
+.section10 > div:nth-child(1) div:nth-child(1) {
+  font-family: Oswald, Lora, georgia, times, serif;
+  font-size: 36px;
+  font-weight: 400px;
+  color: black;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.section10 > div:nth-child(1) div:nth-child(2) {
+  margin-left: 740px;
+  color: red;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+.section10 > div:nth-child(2) {
+  position: relative;
+  top: 30px;
+  width: 1240px;
+  display: grid;
+  grid-template-areas: "b1 b1 b2 b3" "b1 b1 b4 b5";
+  gap: 25px;
+  margin: auto;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) {
+  grid-area: b1;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) img {
+  width: 100%;
+  height: 65%;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: "PT Serif", georgia, times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  margin-top: 25px;
+  transition: transform 0.1s;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) h2:hover {
+  color: red;
+  transform: scale(1.02);
+}
+.section10 > div:nth-child(2) > div:nth-child(1) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(99, 83, 103);
+  margin-top: 20px;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) {
+  grid-area: b2;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) img {
+  width: 100%;
+  height: 75%;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(2) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(3) {
+  grid-area: b3;
+}
+.section10 > div:nth-child(2) > div:nth-child(3) img {
+  width: 100%;
+  height: 75%;
+}
+.section10 > div:nth-child(2) > div:nth-child(3) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(3) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(4) {
+  margin-top: 10px;
+  grid-area: b4;
+}
+.section10 > div:nth-child(2) > div:nth-child(4) img {
+  width: 100%;
+}
+.section10 > div:nth-child(2) > div:nth-child(4) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(4) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(5) {
+  margin-top: 10px;
+  grid-area: b5;
+}
+.section10 > div:nth-child(2) > div:nth-child(5) img {
+  width: 100%;
+  height: 64%;
+}
+.section10 > div:nth-child(2) > div:nth-child(5) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(5) p:hover {
+  color: red;
+  transform: scale(1.06);
 }
 
 /*# sourceMappingURL=style.css.map */
