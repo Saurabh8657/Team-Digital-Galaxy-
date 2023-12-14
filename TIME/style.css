@@ -4,7 +4,7 @@
 }
 
 .navbar1 {
-  padding: 20px 50px;
+  padding: 10px 50px 25px 50px;
   height: 20px;
   display: flex;
   justify-content: space-between;
@@ -12,31 +12,40 @@
 .navbar1 p {
   margin-top: 5px;
   font-size: 1.1em;
-  font-weight: 800;
-  color: red;
+  font-weight: 600;
+  color: #e90606;
+}
+.navbar1 p:hover {
+  cursor: pointer;
 }
 .navbar1 h1 {
   font-size: 2em;
-  font-weight: 700;
-  color: red;
+  font-weight: 500;
+  color: #e90606;
   margin-right: 30px;
+}
+.navbar1 h1:hover {
+  cursor: pointer;
 }
 .navbar1 #signin {
   width: auto;
-  border-radius: 2px;
+  border-radius: 4px;
+  border: none;
   background-color: white;
-  color: red;
+  color: #e90606;
   font-weight: 600;
   margin: 0 14px 0 0;
   padding: 8px 16px 8px 16px;
 }
 .navbar1 #signin:hover {
   cursor: pointer;
+  background-color: rgba(233, 6, 6, 0.3647058824);
 }
 .navbar1 #subscribe {
-  width: auto;
-  border-radius: 2px;
-  background-color: red;
+  width: 160px;
+  border-radius: 4px;
+  border: none;
+  background-color: #e90606;
   color: white;
   font-weight: 600;
   padding: 8px 24px;
@@ -47,12 +56,194 @@
 
 .navbar2 {
   padding: 0 50px;
-  height: 40px;
+  height: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1em;
+}
+.navbar2 i:nth-child(1) {
+  opacity: 0.8;
+}
+.navbar2 i:nth-child(1):hover {
+  cursor: pointer;
+}
+.navbar2 p {
+  margin-top: 20px;
+  margin-right: 80px;
+  color: rgba(0, 0, 0, 0.982);
+}
+.navbar2 p:hover {
+  cursor: pointer;
+}
+.navbar2 i:nth-child(3) {
+  opacity: 0.6;
+}
+.navbar2 i:nth-child(3):hover {
+  cursor: pointer;
+}
+
+.section1 {
+  padding: 20px 100px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+}
+.section1 > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.section1 > div:nth-child(1) > div:nth-child(1) {
+  transition: scale 2s ease;
+  border: none;
+  width: 100%;
+  height: 40%;
+}
+.section1 > div:nth-child(1) > div:nth-child(1) img {
+  width: 500px;
+  height: auto;
+}
+.section1 > div:nth-child(1) > div:nth-child(1) img:hover {
+  cursor: pointer;
+}
+.section1 > div:nth-child(1) > div:nth-child(1):hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.section1 > div:nth-child(1) .col-md-4 {
+  background-color: #191919;
+  color: white;
+}
+.section1 > div:nth-child(1) .col-md-4 h5 {
+  font-size: 30px;
+}
+.section1 > div:nth-child(1) .col-md-4 .text-body-secondary {
+  color: white;
+}
+.section1 > div:nth-child(1) .col-md-4 p {
+  color: #e90606;
+}
+.section1 > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 89%;
+}
+.section1 > div:nth-child(1) > div:nth-child(2) div {
+  transition: scale 2s ease-in-out;
+}
+.section1 > div:nth-child(1) > div:nth-child(2) div:hover {
+  transform: scale(1.02);
+}
+.section1 > div:nth-child(1) > div:nth-child(2) img:hover {
+  cursor: pointer;
+}
+.section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) {
+  color: #28333a;
   font-size: 20px;
-  margin-top: 10px;
+}
+.section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1):hover {
+  color: #e90606;
+}
+
+.section1 > div:nth-child(2) {
+  width: 100%;
+}
+.section1 > div:nth-child(2) div {
+  margin-bottom: 30px;
+}
+.section1 > div:nth-child(2) div p:nth-child(1) {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+}
+.section1 > div:nth-child(2) div div {
+  padding: 0 60px;
+}
+.section1 > div:nth-child(2) div div span:nth-child(1) {
+  font-size: 25px;
+  display: inline-block;
+  color: black;
+}
+.section1 > div:nth-child(2) div div span:nth-child(2) {
+  font-weight: 600;
+  color: #e90606;
+}
+.section1 > div:nth-child(2) div img {
+  margin-left: 30px;
+  width: 80%;
+  height: auto;
+  transition: scale 3s ease;
+}
+.section1 > div:nth-child(2) div img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.section2 {
+  padding: 20px 50px;
+  text-align: center;
+  background-color: #191919;
+}
+.section2 div:nth-child(1) {
+  margin-bottom: 50px;
+}
+.section2 div:nth-child(1) span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #e90606;
+}
+.section2 div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.section2 div:nth-child(2) img {
+  width: 100%;
+  border-radius: 20px;
+  transition: scale 3s ease;
+}
+.section2 div:nth-child(2) img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.section3 {
+  padding: 20px 120px;
+  display: flex;
+  flex-direction: column;
+}
+.section3 div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.section3 div:nth-child(1) p {
+  font-size: 20px;
+  color: #e90606;
+  text-decoration: underline;
+}
+.section3 div:nth-child(1) p:hover {
+  cursor: pointer;
+}
+.section3 div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.section3 div:nth-child(2) div:hover {
+  cursor: pointer;
+}
+.section3 div:nth-child(2) div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.section3 div:nth-child(2) div:nth-child(2) > img {
+  height: 190px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
