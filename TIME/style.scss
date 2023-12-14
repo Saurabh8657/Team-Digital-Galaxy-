@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: serif, Georgia, Times, serif;
 }
 .navbar1{
+    width: 100%;
     padding: 10px 50px 25px 50px;
     height: 20px;
     display: flex;
@@ -53,12 +56,16 @@
     }
 }
 .navbar2{
+    width: 100%;
     padding: 0 50px;
     height: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 100;
     i:nth-child(1){
         opacity: 0.8;
     }
@@ -82,6 +89,7 @@
 }
 
 .section1{
+    width: 100%;
     padding: 20px 100px; 
     height: 900px;
     display: flex;
@@ -147,6 +155,7 @@
 
 }
 .section1{
+    width: 100%;
     >div:nth-child(2){
         width: 100%;
         div{
@@ -185,36 +194,52 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    
 }
 @mixin saurav2 {
+    button{
+        font-size: 0.9em;
+        color: white;
+        font-weight: 500;
+        width: auto;
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #e90606;
+        position: relative;
+        top: 70%;
+        left: 4%;
+    }
     h4{
         font-size: 1em;
         color: white;
         font-weight: 500;
         padding: 0 10px;;
         position: relative;
-        top: 75%;
+        left: 0.5%;
+        top: 71%;
     }
     p{
         font-size: 1.5em;
         color: white;
         font-weight: 500;
         position: relative;
-        top: 76%;
+        left: 4%;
+        top: 71%;
     }
 }
 
 .section2{
-    padding: 20px 80px;
-    text-align: center;
-    background-color: #191919;
+    width: 100%;
+    padding: 20px 100px;
+    
+    background-color: #19191960;
     >div:nth-child(1){
+        text-align: center;
         margin-bottom: 50px;
         span{
             font-size: 40px;
             font-weight: 600;
-            color: #e90606;
+            color: #e90606d1;
         }
     }
     >div:nth-child(2){
@@ -248,10 +273,14 @@
             @include saurav;
             @include saurav2;
         }
+        div:hover{
+             background-size: 110%  125%;
+        }
     }
     
 }
 .section3{
+    width: 100%;
     padding: 20px 120px;
     display: flex;
     flex-direction: column;
@@ -286,6 +315,76 @@
             height: 190px;
             display: flex;
             flex-direction: column;
+        }
+    }
+}
+.section4{
+    width: 100%;
+    background-color: #101426;
+    padding: 50px 100px;
+    
+    iframe{
+        border-radius: 05px;
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        >p{
+            font-size: 2em;
+            color: white;
+            font-weight: 600;
+        }
+        >p:nth-child(2){
+            margin-right: 160px;
+        }
+    }
+    .whole{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        .left{
+            width: fit-content;
+           
+            >div:nth-child(2){
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                
+                div{
+                    width: fit-content;
+                }
+                h3{
+                    color: white;
+                    font-size: 1.5em;
+                    font-weight: 600;
+
+                }
+                p{
+                    color: #62656b;
+                    font-size: 1em;
+                    font-weight: 400;
+                }           
+            }
+        }
+        .right{
+            div{
+                display: flex;
+                flex-direction: row;
+                gap: 25px;
+                margin-bottom: 20px;
+                div:nth-child(2){
+                    flex-direction: column;
+                    h2{
+                        color: white;
+                        font-size: 1em;
+                        
+                    }
+                    p{
+                        color: #62656b;
+                    }
+                }
+               
+            }
         }
     }
 }
