@@ -493,4 +493,65 @@
   color: #62656b;
 }
 
+.section5 {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: row;
+}
+.section5 > div:nth-child(1) {
+  flex: 3;
+}
+.section5 > div:nth-child(1) > h4 {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.section5 > div:nth-child(1) div {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 400px);
+  gap: 10px 20px;
+}
+.section5 > div:nth-child(1) div div {
+  display: flex;
+  flex-direction: column;
+}
+.section5 > div:nth-child(1) div div h4 {
+  color: #e90606;
+  font-size: 2em;
+  font-weight: 600;
+}
+.section5 > div:nth-child(1) div div h4:hover {
+  cursor: pointer;
+}
+.section5 > div:nth-child(1) div div p {
+  color: #62656b;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.section5 > div:nth-child(2) {
+  flex: 0.8;
+  padding: 10px 50px 20px 50px;
+  background-color: #f0f1f2;
+  border-radius: 5px;
+}
+.section5 > div:nth-child(2) h4 {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.section5 > div:nth-child(2) p {
+  font-size: 0.8em;
+}
+.section5 > div:nth-child(2) h5 {
+  margin-top: 30px;
+}
+.section5 > div:nth-child(2) h5:hover {
+  cursor: pointer;
+  color: #e90606;
+}
+
 /*# sourceMappingURL=style.css.map */
