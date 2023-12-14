@@ -181,31 +181,134 @@
 }
 
 .section2 {
-  padding: 20px 50px;
+  padding: 20px 80px;
   text-align: center;
   background-color: #191919;
 }
-.section2 div:nth-child(1) {
+.section2 > div:nth-child(1) {
   margin-bottom: 50px;
 }
-.section2 div:nth-child(1) span {
+.section2 > div:nth-child(1) span {
   font-size: 40px;
   font-weight: 600;
   color: #e90606;
 }
-.section2 div:nth-child(2) {
-  display: flex;
-  gap: 10px;
+.section2 > div:nth-child(2) {
+  height: 350px;
   margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
-.section2 div:nth-child(2) img {
-  width: 100%;
-  border-radius: 20px;
-  transition: scale 3s ease;
+.section2 > div:nth-child(2) div:nth-child(1) {
+  background-image: url("https://api.time.com/wp-content/uploads/2023/12/taylor-swift-person-of-the-year-4.webp?w=700&h=1050&crop=1&quality=85");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
-.section2 div:nth-child(2) img:hover {
-  cursor: pointer;
-  transform: scale(1.05);
+.section2 > div:nth-child(2) div:nth-child(1) h4 {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  position: relative;
+  top: 75%;
+}
+.section2 > div:nth-child(2) div:nth-child(1) p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  top: 76%;
+}
+.section2 > div:nth-child(2) div:nth-child(2) {
+  background-image: url("https://api.time.com/wp-content/uploads/2023/12/israel-gaza-2023-featured-horizontal-2.jpg?quality=85&w=700&h=1050&crop=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.section2 > div:nth-child(2) div:nth-child(2) h4 {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  position: relative;
+  top: 75%;
+}
+.section2 > div:nth-child(2) div:nth-child(2) p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  top: 76%;
+}
+.section2 > div:nth-child(2) div:nth-child(3) {
+  background-image: url("https://api.time.com/wp-content/uploads/2023/12/lionel-messi-athelete-of-the-year-2023-social.jpg?quality=85&crop=961px%2C2px%2C1043px%2C1566px&resize=700%2C1050&strip=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.section2 > div:nth-child(2) div:nth-child(3) h4 {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  position: relative;
+  top: 75%;
+}
+.section2 > div:nth-child(2) div:nth-child(3) p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  top: 76%;
+}
+.section2 > div:nth-child(2) div:nth-child(4) {
+  background-image: url("https://api.time.com/wp-content/uploads/2023/12/alex-newell-breakthrough-of-the-year.jpg?quality=85&w=700&h=1050&crop=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.section2 > div:nth-child(2) div:nth-child(4) h4 {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  position: relative;
+  top: 75%;
+}
+.section2 > div:nth-child(2) div:nth-child(4) p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  top: 76%;
+}
+.section2 > div:nth-child(2) div:nth-child(5) {
+  background-image: url("https://api.time.com/wp-content/uploads/2023/12/sam-altman-ceo-of-the-year.jpg?quality=85&w=700&h=1050&crop=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.section2 > div:nth-child(2) div:nth-child(5) h4 {
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  padding: 0 10px;
+  position: relative;
+  top: 75%;
+}
+.section2 > div:nth-child(2) div:nth-child(5) p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  top: 76%;
 }
 
 .section3 {
