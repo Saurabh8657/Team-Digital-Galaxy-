@@ -92,7 +92,7 @@
 
 .section1 {
   width: 100%;
-  padding: 20px 100px;
+  padding: 20px 130px;
   height: 900px;
   display: flex;
   flex-direction: row;
@@ -102,7 +102,7 @@
   flex-direction: column;
 }
 .section1 > div:nth-child(1) > div:nth-child(1) {
-  transition: scale 2s ease;
+  transition: 0.3s;
   border: none;
   width: 100%;
   height: 40%;
@@ -134,14 +134,15 @@
 .section1 > div:nth-child(1) > div:nth-child(2) {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  width: 89%;
+  gap: 10px;
+  width: 90%;
+  margin-top: 30px;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) div {
-  transition: scale 2s ease-in-out;
+  transition: 0.3s;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) div:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 .section1 > div:nth-child(1) > div:nth-child(2) img:hover {
   cursor: pointer;
@@ -150,14 +151,18 @@
   color: #28333a;
   font-size: 20px;
 }
+.section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) + p {
+  font-size: 0.8em;
+}
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1):hover {
   color: #e90606;
 }
 
 .section1 {
-  width: 100%;
+  height: auto;
 }
 .section1 > div:nth-child(2) {
+  margin-right: 40px;
   width: 100%;
 }
 .section1 > div:nth-child(2) div {
@@ -184,7 +189,7 @@
   margin-left: 30px;
   width: 80%;
   height: auto;
-  transition: scale 3s ease;
+  transition: 0.3s;
 }
 .section1 > div:nth-child(2) div img:hover {
   cursor: pointer;
@@ -210,13 +215,14 @@
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 .section2 > div:nth-child(2) div:nth-child(1) {
   background-image: url("https://api.time.com/wp-content/uploads/2023/12/taylor-swift-person-of-the-year-4.webp?w=700&h=1050&crop=1&quality=85");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(1) button {
   font-size: 0.9em;
@@ -224,8 +230,9 @@
   font-weight: 500;
   width: auto;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e90606;
+  border: none;
   position: relative;
   top: 70%;
   left: 4%;
@@ -252,6 +259,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(2) button {
   font-size: 0.9em;
@@ -259,8 +267,9 @@
   font-weight: 500;
   width: auto;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e90606;
+  border: none;
   position: relative;
   top: 70%;
   left: 4%;
@@ -287,6 +296,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(3) button {
   font-size: 0.9em;
@@ -294,8 +304,9 @@
   font-weight: 500;
   width: auto;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e90606;
+  border: none;
   position: relative;
   top: 70%;
   left: 4%;
@@ -322,6 +333,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(4) button {
   font-size: 0.9em;
@@ -329,8 +341,9 @@
   font-weight: 500;
   width: auto;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e90606;
+  border: none;
   position: relative;
   top: 70%;
   left: 4%;
@@ -357,6 +370,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(5) button {
   font-size: 0.9em;
@@ -364,8 +378,9 @@
   font-weight: 500;
   width: auto;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #e90606;
+  border: none;
   position: relative;
   top: 70%;
   left: 4%;
@@ -388,7 +403,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:hover {
-  background-size: 110% 125%;
+  transform: scaleX(1.05);
 }
 
 .section3 {
@@ -413,19 +428,14 @@
   cursor: pointer;
 }
 .section3 div:nth-child(2) {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 .section3 div:nth-child(2) div:hover {
   cursor: pointer;
 }
-.section3 div:nth-child(2) div:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-}
-.section3 div:nth-child(2) div:nth-child(2) > img {
-  height: 190px;
+.section3 div:nth-child(2) div {
   display: flex;
   flex-direction: column;
 }
@@ -464,6 +474,7 @@
   margin-top: 30px;
 }
 .section4 .whole .left > div:nth-child(2) div {
+  margin-top: 50px;
   width: fit-content;
 }
 .section4 .whole .left > div:nth-child(2) h3 {
@@ -495,7 +506,7 @@
 
 .section5 {
   width: 100%;
-  padding: 50px 100px;
+  padding: 50px 140px;
   display: flex;
   flex-direction: row;
 }
@@ -533,8 +544,8 @@
 }
 .section5 > div:nth-child(2) {
   flex: 0.8;
-  padding: 10px 50px 20px 50px;
-  background-color: #f0f1f2;
+  padding: 10px 40px 20px 40px;
+  background-color: #f0f2f0;
   border-radius: 5px;
 }
 .section5 > div:nth-child(2) h4 {
@@ -544,9 +555,12 @@
   font-weight: 600;
 }
 .section5 > div:nth-child(2) p {
+  color: #62656b;
   font-size: 0.8em;
 }
 .section5 > div:nth-child(2) h5 {
+  color: black;
+  font-size: 1.1em;
   margin-top: 30px;
 }
 .section5 > div:nth-child(2) h5:hover {

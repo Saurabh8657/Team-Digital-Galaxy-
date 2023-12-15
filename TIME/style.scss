@@ -90,16 +90,17 @@
 
 .section1{
     width: 100%;
-    padding: 20px 100px; 
+    
+    padding: 20px 130px; 
     height: 900px;
     display: flex;
     flex-direction: row;
+
     >div:nth-child(1){
-        // width: 80%;
         display: flex;
         flex-direction: column;
         >div:nth-child(1){
-            transition: scale 2s ease;
+            transition: 0.3s;
             border: none;
             img{
                 width: 500px;
@@ -131,13 +132,14 @@
         >div:nth-child(2){
             display: flex;
             flex-direction: row;
-            gap: 20px;
-            width: 89%;
+            gap: 10px;
+            width: 90%;
+            margin-top: 30px;
             div{
-                transition: scale 2s ease-in-out;
+                transition: 0.3s;
             }
             div:hover{
-                transform: scale(1.02);
+                transform: scale(1.03);
             }
             img:hover{
                 cursor: pointer;
@@ -145,6 +147,9 @@
             >div>div>p:nth-child(1){
                 color: #28333a;
                 font-size: 20px;
+            }
+            >div>div>p:nth-child(1)+p{
+                font-size: 0.8em;
             }
             >div>div>p:nth-child(1):hover{
                 color: #e90606;
@@ -155,8 +160,9 @@
 
 }
 .section1{
-    width: 100%;
+    height: auto;
     >div:nth-child(2){
+        margin-right: 40px;
         width: 100%;
         div{
             margin-bottom: 30px;
@@ -181,7 +187,7 @@
                 margin-left: 30px;
                 width: 80%;
                 height: auto;
-                transition: scale 3s ease;
+                transition: 0.3s ;
             }
             img:hover{
                 cursor: pointer;
@@ -203,8 +209,9 @@
         font-weight: 500;
         width: auto;
         padding: 5px;
-        border-radius: 3px;
+        border-radius: 5px;
         background-color: #e90606;
+        border: none;
         position: relative;
         top: 70%;
         left: 4%;
@@ -247,34 +254,40 @@
         margin-bottom: 40px;
         display: grid;
         grid-template-columns: repeat(5,1fr);
-        gap: 20px;
+        gap: 10px;
         div:nth-child(1){
             background-image: url('https://api.time.com/wp-content/uploads/2023/12/taylor-swift-person-of-the-year-4.webp?w=700&h=1050&crop=1&quality=85');
             @include saurav;
             @include saurav2;
+            transition: 0.3s;
         }
         div:nth-child(2){
             background-image: url('https://api.time.com/wp-content/uploads/2023/12/israel-gaza-2023-featured-horizontal-2.jpg?quality=85&w=700&h=1050&crop=1');
             @include saurav;
             @include saurav2;
+            transition: 0.3s;
         }
         div:nth-child(3){
             background-image: url('https://api.time.com/wp-content/uploads/2023/12/lionel-messi-athelete-of-the-year-2023-social.jpg?quality=85&crop=961px%2C2px%2C1043px%2C1566px&resize=700%2C1050&strip=');
             @include saurav;
             @include saurav2;
+            transition: 0.3s;
         }
         div:nth-child(4){
             background-image: url('https://api.time.com/wp-content/uploads/2023/12/alex-newell-breakthrough-of-the-year.jpg?quality=85&w=700&h=1050&crop=1');
             @include saurav;
             @include saurav2;
+            transition: 0.3s;
         }
         div:nth-child(5){
             background-image: url("https://api.time.com/wp-content/uploads/2023/12/sam-altman-ceo-of-the-year.jpg?quality=85&w=700&h=1050&crop=1");
             @include saurav;
             @include saurav2;
+            transition: 0.3s;
         }
         div:hover{
-             background-size: 110%  125%;
+            
+            transform: scaleX(1.05);
         }
     }
     
@@ -301,18 +314,13 @@
     }
     // have to look 
     div:nth-child(2){
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
         gap: 40px;
         div:hover{
             cursor:pointer
         }
-        div:nth-child(1){
-            display: flex;
-            flex-direction: column;
-        }
-        div:nth-child(2)>img{
-            height: 190px;
+        div{
             display: flex;
             flex-direction: column;
         }
@@ -324,7 +332,7 @@
     padding: 50px 100px;
     
     iframe{
-        border-radius: 05px;
+        border-radius: 5px;
     }
     >div{
         display: flex;
@@ -351,6 +359,7 @@
                 margin-top: 30px;
                 
                 div{
+                    margin-top: 50px;
                     width: fit-content;
                 }
                 h3{
@@ -390,7 +399,7 @@
 }
 .section5{
     width: 100%;
-    padding: 50px 100px;
+    padding: 50px 140px;
     display: flex;
     flex-direction: row;
     >div:nth-child(1){
@@ -429,8 +438,8 @@
     }
     >div:nth-child(2){
         flex: 0.8;
-        padding: 10px 50px 20px 50px;
-        background-color: #f0f1f2;
+        padding: 10px 40px 20px 40px;
+        background-color: #f0f2f0;
         border-radius: 5px;
         h4{
             text-align: center;
@@ -440,9 +449,12 @@
             
         }
         p{
+            color: #62656b;
             font-size: 0.8em;
         }
         h5{
+            color: black;
+            font-size: 1.1em;
             margin-top: 30px;
         }
         h5:hover{
