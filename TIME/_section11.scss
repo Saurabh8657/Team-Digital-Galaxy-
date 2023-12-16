@@ -1,18 +1,19 @@
-.section10{
-    margin-left: 50px;
-    margin-right: 50px;
+.section11{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
 
 }
-$aleftFont: sans-serif;
-$arightFont: sans-serif;
-$pFont: sans-serif;
+$aleftFont: Oswald, Lora, georgia, times, serif;
+$arightFont: Roboto, HelveticaNeue, sans-serif;
+$pFont: "Zilla Slab", lora, georgia, times, serif;
 
 .health{
     >div:nth-child(1){
-        width: 100%;
-        height: 2px;
-        background-color: black;
-        margin-top: 50px;
+        // width: 100%;
+        // height: 2px;
+        // background-color: black;
+        // margin-top: 50px;
     }
 
     >div:nth-child(2){
@@ -23,8 +24,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }
@@ -86,8 +86,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }
@@ -149,8 +148,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }
@@ -212,8 +210,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }
@@ -275,8 +272,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }
@@ -338,8 +334,7 @@ $pFont: sans-serif;
     
         a:nth-child(1){
             text-decoration: none;
-            font-size: 2.25rem;
-            font-weight: bold;
+            font-size: 36px;
             color: black;
             font-family: $aleftFont;
         }

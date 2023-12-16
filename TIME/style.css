@@ -428,17 +428,12 @@
   transform: scale(1.06);
 }
 
-.section10 {
-  margin-left: 50px;
-  margin-right: 50px;
+.section11 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
 }
 
-.health > div:nth-child(1) {
-  width: 100%;
-  height: 2px;
-  background-color: black;
-  margin-top: 50px;
-}
 .health > div:nth-child(2) {
   height: 100px;
   display: flex;
@@ -447,17 +442,16 @@
 }
 .health > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .health > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .health > div:nth-child(3) {
   display: flex;
@@ -483,7 +477,7 @@
 .health > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .health > div:nth-child(3) div p:hover {
   color: red;
@@ -506,17 +500,16 @@
 }
 .Entertainment > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .Entertainment > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .Entertainment > div:nth-child(3) {
   display: flex;
@@ -542,7 +535,7 @@
 .Entertainment > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .Entertainment > div:nth-child(3) div p:hover {
   color: red;
@@ -565,17 +558,16 @@
 }
 .family > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .family > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .family > div:nth-child(3) {
   display: flex;
@@ -601,7 +593,7 @@
 .family > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .family > div:nth-child(3) div p:hover {
   color: red;
@@ -624,17 +616,16 @@
 }
 .finance > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .finance > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .finance > div:nth-child(3) {
   display: flex;
@@ -660,7 +651,7 @@
 .finance > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .finance > div:nth-child(3) div p:hover {
   color: red;
@@ -683,17 +674,16 @@
 }
 .Future > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .Future > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .Future > div:nth-child(3) {
   display: flex;
@@ -718,7 +708,7 @@
 .Future > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .Future > div:nth-child(3) div p:hover {
   color: red;
@@ -741,17 +731,16 @@
 }
 .Shopping > div:nth-child(2) a:nth-child(1) {
   text-decoration: none;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: 36px;
   color: black;
-  font-family: sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
 }
 .Shopping > div:nth-child(2) a:nth-child(2) {
   color: red;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: Roboto, HelveticaNeue, sans-serif;
 }
 .Shopping > div:nth-child(3) {
   display: flex;
@@ -777,7 +766,7 @@
 .Shopping > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Zilla Slab", lora, georgia, times, serif;
 }
 .Shopping > div:nth-child(3) div p:hover {
   color: red;
@@ -983,7 +972,6 @@
   cursor: pointer;
   transform: scale(1.05);
 }
-
 .section2 {
   width: 100%;
   padding: 20px 100px;
