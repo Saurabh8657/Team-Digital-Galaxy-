@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+}
+
+nav {
+  width: 1440px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #434CCC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 135px;
+}
+nav h3 {
+  color: var(--Text_White, #FFF);
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav ul a, nav ul li {
+  margin-left: 30px;
+  text-decoration: none;
+  color: var(--Text_White, #FFF);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+nav ul button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #434CCC;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5333333333);
+  margin-left: 40px;
+  color: var(--Text_White, #FFF);
+  font-family: DM Sans;
+  font-size: 16px;
+  transition: 0.3s;
+}
+nav ul button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.about {
+  width: 1440px;
+  height: 224px;
+  background: #434CCC;
+}
+.about h1 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  padding-top: 47px;
+}
+.about p {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 10px;
+}
+
+.homero {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 768px;
+  display: flex;
+  padding: 127px 135px;
+}
+.homero .divone {
+  width: 50%;
+  border: #434CCC 2px solid;
+}
+.homero .divone h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.homero .divone h2 {
+  color: var(--Text_Black, #000);
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+  margin-bottom: 29px;
+}
+.homero .divone p {
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  color: var(--Text_Black, #000);
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 30px;
+}
+.homero .divone .partem {
+  display: flex;
+  flex-direction: row;
+}
+.homero .divone .partem h3 {
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.homero .divone .partem div > p:nth-child(2) {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.homero .divone .partem div > p:nth-child(1) {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.divtwo {
+  width: 50%;
+  border: 2px solid #434CCC;
+}/*# sourceMappingURL=style.css.map */
