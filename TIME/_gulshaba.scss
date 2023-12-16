@@ -1,0 +1,522 @@
+.section6 {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(246, 240, 236), rgb(245, 228, 221));
+    background-image: radial-gradient(circle at 10%, transparent 5%, rgba(224, 85, 85, 0.5) 51%);
+    height: 490px;
+    width: 90%;
+    margin: 50px 50px 70px 70px;
+
+    div:nth-child(1) {
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+
+        div:nth-child(1) {
+            font-family: rgba(0, 0, 0, 0.95);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 31px;
+
+        }
+
+        div:nth-child(2) {
+            font-family: Roboto, HelveticaNeue, sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.95);
+        }
+
+        div:nth-child(3) {
+            button {
+                background-color: red;
+                color: white;
+                padding-left: 50px;
+                padding-right: 50px;
+                cursor: pointer;
+                border: none;
+                font-weight: 500;
+            }
+        }
+    }
+
+    div:nth-child(2) {
+        img {
+            margin-top: 20px;
+            transition: transform .9s;
+            animation: scaleAnimation .9s infinite alternate;
+        }
+    }
+
+    @keyframes scaleAnimation {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.09);
+        }
+    }
+}
+
+.listen {
+    text-align: center;
+
+    iframe {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+.section7 {
+    padding: 10px 10px 10px 15px;
+    text-align: center;
+    background-color: #191919;
+
+    div:nth-child(1) {
+        margin-bottom: 20px;
+
+        span {
+            font-size: 40px;
+            font-weight: 600;
+            color: #e90606;
+        }
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            transition: transform .6s;
+
+        }
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.06);
+            border: 2px solid red;
+        }
+    }
+}
+.section8 {
+    margin-top: 50px;
+    margin-left: 300px;
+    border: 1px solid black;
+    width: 900px;
+    height: 200px;
+    z-index: 1;
+    margin-bottom: 100px;
+
+    >div:nth-child(1) {
+        width: 1000px;
+        height: 150px;
+        background-color: rgb(240, 241, 242);
+        position: absolute;
+        left: 250px;
+        top: 5182px;
+
+    }
+
+    div:nth-child(2) {
+        position: relative;
+        width: 600px;
+        height: 100px;
+        top: 80px;
+        left: 90px;
+        font-size: large;
+        font-family: "Zilla Slab", Lora, georgia, times, serif;
+    }
+
+    button {
+        position: relative;
+        left: 700px;
+        font-weight: bold;
+        bottom: 10px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20%;
+        font-family: "Roboto Condensed", "Arial Narrow", arial, sans-serif;
+        ;
+        border: none;
+        background-color: red;
+        color: white;
+        transition: transform 0.2s;
+
+        &:hover {
+            background-color: white;
+            color: red;
+            border: rgb(239, 236, 236);
+            transform: scale(1.05);
+        }
+    }
+
+    .fa-paper-plane {
+        position: relative;
+        bottom: 100px;
+        right: 60px;
+        font-size: 100px;
+        transition: transform .9s;
+        animation: scaleAnimation .9s infinite alternate;
+
+        @keyframes scaleAnimation {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.06);
+            }
+        }
+    }
+}
+
+.section9 {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    cursor: pointer;
+
+    >div:nth-child(1) {
+        display: flex;
+
+        div:nth-child(1) {
+            // color: red;
+            font-family: Oswald, Lora, georgia, times, serif;
+            font-size: 36px;
+            font-weight: 400px;
+            color: black;
+            cursor: pointer;
+            margin-left: 40px;
+        }
+
+        div:nth-child(2) {
+            // margin: auto;
+            margin-left: 740px;
+            color: red;
+            font-family: Roboto, HelveticaNeue, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 15px;
+            cursor: pointer;
+        }
+    }
+
+    >div:nth-child(2) {
+        position: relative;
+        top: 30px;
+        width: 1240px;
+        display: grid;
+        grid-template-areas: "b1 b1 b2 b3"
+            "b1 b1 b4 b5";
+        gap: 25px;
+        margin: auto;
+
+        >div:nth-child(1) {
+            grid-area: b1;
+
+            img {
+                width: 100%;
+                height: 65%;
+            }
+
+            h2 {
+                font-family: "PT Serif", georgia, times, serif;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 31px;
+                margin-top: 25px;
+                transition: transform .1s;
+            }
+
+            h2:hover {
+                color: red;
+                transform: scale(1.02);
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: rgb(99, 83, 103);
+                margin-top: 20px;
+            }
+        }
+
+        >div:nth-child(2) {
+            grid-area: b2;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+        }
+
+        >div:nth-child(3) {
+            grid-area: b3;
+
+            img {
+                width: 100%;
+                height: 75%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+
+        }
+
+        >div:nth-child(4) {
+            grid-area: b4;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+
+        }
+
+        >div:nth-child(5) {
+            grid-area: b5;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+        }
+    }
+}
+
+
+
+
+
+.section10 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    cursor: pointer;
+
+    >div:nth-child(1) {
+        display: flex;
+
+        div:nth-child(1) {
+            // color: red;
+            font-family: Oswald, Lora, georgia, times, serif;
+            font-size: 36px;
+            font-weight: 400px;
+            color: black;
+            cursor: pointer;
+            margin-left: 40px;
+        }
+
+        div:nth-child(2) {
+            margin-left: 740px;
+            color: red;
+            font-family: Roboto, HelveticaNeue, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 15px;
+            cursor: pointer;
+        }
+    }
+
+    >div:nth-child(2) {
+        position: relative;
+        top: 30px;
+        width: 1240px;
+        display: grid;
+        grid-template-areas: "b1 b1 b2 b3"
+            "b1 b1 b4 b5";
+        gap: 25px;
+        margin: auto;
+
+        >div:nth-child(1) {
+            grid-area: b1;
+
+            img {
+                width: 100%;
+                height: 65%;
+            }
+
+            h2 {
+                font-family: "PT Serif", georgia, times, serif;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 31px;
+                margin-top: 25px;
+                transition: transform .1s;
+            }
+
+            h2:hover {
+                color: red;
+                transform: scale(1.02);
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: rgb(99, 83, 103);
+                margin-top: 20px;
+            }
+        }
+
+        >div:nth-child(2) {
+            grid-area: b2;
+
+            img {
+                width: 100%;
+                height: 75%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+                color: rgb(0, 0, 0);
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+        }
+
+        >div:nth-child(3) {
+            grid-area: b3;
+
+            img {
+                width: 100%;
+                height: 75%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+                color: rgb(0, 0, 0);
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+
+        }
+
+        >div:nth-child(4) {
+            margin-top: 10px;
+            grid-area: b4;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+                color: rgb(0, 0, 0);
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+
+        }
+
+        >div:nth-child(5) {
+            margin-top: 10px;
+            grid-area: b5;
+
+            img {
+                width: 100%;
+                height: 64%;
+            }
+
+            p {
+                font-family: "Zilla Slab", Lora, georgia, times, serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                transition: transform .1s;
+                margin-top: 10px;
+                color: rgb(0, 0, 0);
+            }
+
+            p:hover {
+                color: red;
+                transform: scale(1.06);
+            }
+        }
+    }
+}
