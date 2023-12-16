@@ -1,13 +1,362 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .section10 {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.section10 > div hr {
-  border-top: 2px solid black;
+.health > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.health > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.health > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.health > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.health > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.health > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.health > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.health > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.health > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.health > div:nth-child(3) div p:hover {
+  color: red;
+}
+.health > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Entertainment > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Entertainment > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Entertainment > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.Entertainment > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.Entertainment > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.Entertainment > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Entertainment > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Entertainment > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Entertainment > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.Entertainment > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Entertainment > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.family > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.family > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.family > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.family > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.family > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.family > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.family > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.family > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.family > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.family > div:nth-child(3) div p:hover {
+  color: red;
+}
+.family > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.finance > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.finance > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finance > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.finance > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.finance > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.finance > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.finance > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.finance > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.finance > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.finance > div:nth-child(3) div p:hover {
+  color: red;
+}
+.finance > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Future > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Future > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Future > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.Future > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.Future > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+}
+.Future > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Future > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Future > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Future > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.Future > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Future > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Shopping > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Shopping > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Shopping > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+.Shopping > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.Shopping > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.Shopping > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Shopping > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Shopping > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Shopping > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.Shopping > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Shopping > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
