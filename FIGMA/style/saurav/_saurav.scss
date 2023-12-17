@@ -38,19 +38,11 @@ nav{
              font-size: 16px;
              font-weight: 700;
              cursor: pointer;
+             transition: 0.3s;
          }
          button:hover{
-            height: 48px;
-            width: 170px;
-            color: #FFF;
-            border-radius: 5px;
-            border: 1px solid rgba(255, 255, 255, 0.30);
-            background-color: rgba(67, 76, 204, 1);
-            color:#FFF;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 16px;
-            font-weight: 700;
             cursor: pointer;
+            transform: scale(1.05);
         }
     }
  }
@@ -218,6 +210,11 @@ nav{
     img{
         margin-right: -119px;
         margin-left: 482px;
+        transition: 0.3s;
+    }
+    img:hover{
+        cursor: pointer;
+        transform: scale(1.1);
     }
 }
 @media all and (max-width:480px){
@@ -293,24 +290,23 @@ nav{
         line-height: 32px;
     }
 }
-    .cont1{
-        width: 1440px;
-        background-color:  #F5F6FD;
-        padding-top: 50px;
-        padding-bottom: 80px;
-        display: grid;
-        grid-template-columns: repeat(3, 370px);
-        justify-content: center;
-        gap: 30px;     
+.cont1{
+    width: 1440px;
+    background-color:  #F5F6FD;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    gap: 30px;     
         
-        div{
-            height: 416px;
-            padding-left: 30px;
-            border-radius: 5px;
-            background: #FFF;
-            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
-            
-
+    div{
+        height: 416px;
+        padding-left: 30px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+        transition: 0.3s;
         img{
             display: flex;
             padding-right: 30px;
@@ -349,6 +345,10 @@ nav{
             line-height: 24px; 
         }
     }
+    div:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
 }
 @media all and (max-width:480px){
     .vivendo{
@@ -362,11 +362,7 @@ nav{
     }
     .cont1{
         width: 375px;
-        
         grid-template-columns: repeat(1, 346px);
-            
-        
         
     }
-    
 }
