@@ -16,6 +16,7 @@ This represent the TIME web page
 <img src="/Page_looks/5.png" alt="" />
 <img src="/Page_looks/6.png" alt="" />
 <img src="/Page_looks/7.png" alt="" />
+<img src="/Page_looks/8.png" alt="" />
 
 This represent the FIGMA About page
 
