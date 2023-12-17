@@ -1,13 +1,14 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(245, 246, 252);
+  margin: auto;
+  padding: 0px;
 }
 
 .inci {
   background-color: rgb(245, 246, 252);
   display: flex;
   flex-direction: row;
+  width: 1440px;
+  margin: auto;
 }
 .inci div:nth-child(1) {
   width: 100%;
@@ -106,10 +107,8 @@ body {
   height: 48px;
   font-size: medium;
   margin: 0 10px;
-  cursor: pointer;
-}
-.inci div:nth-child(2) div button:hover {
-  background-color: gray;
+  margin-bottom: 100px;
+  /* Add some spacing between buttons */
 }
 .inci div:nth-child(2) div button:nth-child(1) {
   background-color: rgb(67, 76, 204);
@@ -129,15 +128,13 @@ body {
   letter-spacing: 1px;
   border-radius: 5px;
   background-color: rgb(245, 246, 252);
-  transition: background-color 0.5s, transform 0.5s;
-}
-.inci div:nth-child(2) div button:hover {
-  background-color: rgb(206, 204, 204);
-  transform: scale(1.05);
 }
 @media all and (max-width: 740px) {
   .inci {
     flex-direction: column;
+  }
+  .inci .inci {
+    width: 375px;
   }
   .inci div:nth-child(2) {
     width: 100%;
@@ -159,6 +156,7 @@ body {
   }
   .inci div:nth-child(2) div button {
     font-size: 14px;
+    margin-bottom: 20px;
   }
   .inci div:nth-child(2) div button:nth-child(1), .inci div:nth-child(2) div button:nth-child(2) {
     width: 120px;
@@ -166,8 +164,9 @@ body {
 }
 
 .simili {
-  width: 100%;
+  width: 1440px;
   height: auto;
+  top: 2608px;
   margin: auto;
   display: grid;
   justify-content: space-evenly;
@@ -175,7 +174,7 @@ body {
   grid-template-areas: ". b1 b1 ." "b2 b3 b4 b5";
 }
 .simili div:nth-child(1) {
-  margin-top: 20px;
+  margin-top: 30px;
   grid-area: b1;
   margin-bottom: 40px;
 }
@@ -200,7 +199,7 @@ body {
 .simili div:nth-child(2) {
   grid-area: b2;
   margin-left: 60px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 .simili div:nth-child(2) p:nth-child(1) {
@@ -224,7 +223,7 @@ body {
 .simili div:nth-child(3) {
   grid-area: b3;
   margin-left: 60px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .simili div:nth-child(3) p:nth-child(1) {
   font-family: DM Serif Display;
@@ -246,7 +245,7 @@ body {
 }
 .simili div:nth-child(4) {
   grid-area: b4;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .simili div:nth-child(4) p:nth-child(1) {
   font-family: DM Serif Display;
@@ -268,7 +267,7 @@ body {
 }
 .simili div:nth-child(5) {
   grid-area: b5;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .simili div:nth-child(5) p:nth-child(1) {
   font-family: DM Serif Display;
@@ -290,13 +289,18 @@ body {
 }
 
 @media all and (max-width: 720px) {
+  .inci {
+    width: 375px;
+    height: 1056px;
+  }
   .simili {
-    margin-top: 100px;
+    width: 375px;
+    height: 896px;
     grid-template-areas: "b1" "b2" "b3" "b4" "b5";
     text-align: center;
   }
   .simili div {
-    margin-left: 0;
+    margin: 0;
     padding: 0;
   }
 }

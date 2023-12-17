@@ -1,13 +1,15 @@
-body{
-  margin:0;
-  padding:0;
-  background-color: rgb(245, 246, 252);
+body {
+  margin: auto;
+  padding: 0px;
+  // background-color: rgb(245, 246, 252);
 }
-// 3rd layout start
+
 .inci {
   background-color: rgb(245, 246, 252);
   display: flex;
   flex-direction: row;
+  width: 1440px;
+  margin: auto;
 
   div:nth-child(1) {
     width: 100%;
@@ -118,10 +120,8 @@ body{
         height: 48px;
         font-size: medium;
         margin: 0 10px;
-        cursor: pointer;
-        &:hover{
-          background-color: gray;
-        }
+        margin-bottom: 100px;
+        /* Add some spacing between buttons */
 
         &:nth-child(1) {
           background-color: rgb(67, 76, 204);
@@ -142,11 +142,6 @@ body{
           letter-spacing: 1px;
           border-radius: 5px;
           background-color: rgb(245, 246, 252);
-          transition: background-color 0.5s, transform 0.5s;
-        }
-        &:hover{
-          background-color: rgb(206, 204, 204);
-          transform:scale(1.05);
         }
       }
     }
@@ -154,6 +149,10 @@ body{
 
   @media all and (max-width: 740px) {
     flex-direction: column;
+
+    .inci {
+      width: 375px;
+    }
 
     div:nth-child(2) {
       width: 100%;
@@ -166,6 +165,7 @@ body{
         height: auto;
         overflow: visible;
         font-family: DM Serif Display;
+        //styleName: H3;
         font-family: DM Serif Display;
         font-size: 40px;
         font-weight: 550;
@@ -179,7 +179,7 @@ body{
       div {
         button {
           font-size: 14px;
-
+           margin-bottom: 20px;
           &:nth-child(1),
           &:nth-child(2) {
             width: 120px;
@@ -188,16 +188,15 @@ body{
       }
     }
   }
+
 }
-// 3rd layout end
 
 
-
-// 4th layout start
 .simili {
- 
-  width: 100%;
-  height:auto;
+
+  width: 1440px;
+  height: auto;
+  top: 2608px;
   margin: auto;
   display: grid;
   justify-content: space-evenly;
@@ -207,9 +206,10 @@ body{
     "b2 b3 b4 b5";
 
   div:nth-child(1) {
-    margin-top: 20px;
+    margin-top: 30px;
     grid-area: b1;
     margin-bottom: 40px;
+
     p:nth-child(1) {
       font-family: DM Serif Display;
       font-size: 56px;
@@ -234,8 +234,9 @@ body{
   div:nth-child(2) {
     grid-area: b2;
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 40px;
+
     p:nth-child(1) {
 
       font-family: DM Serif Display;
@@ -263,7 +264,8 @@ body{
   div:nth-child(3) {
     grid-area: b3;
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 0px;
+
     p:nth-child(1) {
       font-family: DM Serif Display;
       font-size: 72px;
@@ -289,7 +291,8 @@ body{
 
   div:nth-child(4) {
     grid-area: b4;
-    margin-top: 30px;
+    margin-top: 0px;
+
     p:nth-child(1) {
       font-family: DM Serif Display;
       font-size: 72px;
@@ -315,7 +318,8 @@ body{
 
   div:nth-child(5) {
     grid-area: b5;
-    margin-top: 30px;
+    margin-top: 0px;
+
     p:nth-child(1) {
       font-family: DM Serif Display;
       font-size: 72px;
@@ -338,14 +342,20 @@ body{
 
     }
   }
- 
-  
+
+
 
 }
 
 @media all and (max-width: 720px) {
+  .inci {
+    width: 375px;
+    height: 1056px;
+  }
+
   .simili {
-    margin-top: 100px;
+    width: 375px;
+    height:896px;
     grid-template-areas:
       "b1"
       "b2"
@@ -353,12 +363,11 @@ body{
       "b4"
       "b5";
     text-align: center;
-    div{
-    margin-left: 0;
-    padding: 0;
+
+     div {
+      margin: 0;
+      padding: 0;
+    }
   }
-}
 
 }
-
-// 4th layout end
