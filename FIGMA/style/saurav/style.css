@@ -14,9 +14,6 @@ nav h3 {
   font-weight: 400;
   font-family: "DM Serif Display", serif;
 }
-nav h3:hover {
-  cursor: pointer;
-}
 nav div {
   display: flex;
   align-items: center;
@@ -29,11 +26,6 @@ nav div a {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  transition: 0.3s;
-}
-nav div a:hover {
-  text-decoration: underline white 2px;
-  transform: translateY(-3px);
 }
 nav div button {
   height: 48px;
@@ -47,10 +39,19 @@ nav div button {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  transition: 0.3s;
 }
 nav div button:hover {
-  transform: scale(1.05);
+  height: 48px;
+  width: 170px;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgb(67, 76, 204);
+  color: #FFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 #menu {
@@ -215,11 +216,6 @@ nav div button:hover {
 .homero img {
   margin-right: -119px;
   margin-left: 482px;
-  transition: 0.3s;
-}
-.homero img:hover {
-  cursor: pointer;
-  transform: scale(1.05);
 }
 
 @media all and (max-width: 480px) {
@@ -307,7 +303,6 @@ nav div button:hover {
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  transition: 0.3s;
 }
 .cont1 div img {
   display: flex;
@@ -344,10 +339,6 @@ nav div button:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-}
-.cont1 div:hover {
-  cursor: pointer;
-  transform: scale(1.05);
 }
 
 @media all and (max-width: 480px) {
