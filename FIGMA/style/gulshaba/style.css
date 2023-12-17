@@ -23,7 +23,7 @@ body {
 .inci div:nth-child(2) {
   grid-area: b2;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .inci div:nth-child(2) p:nth-child(1) {
   font-family: DM Sans;
@@ -40,7 +40,6 @@ body {
   line-height: 64px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 460px;
   height: 60px;
   white-space: nowrap;
   overflow: hidden;
@@ -52,12 +51,14 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 620px;
+  margin-top: 40px;
   height: fit-content;
   top: 2105px;
   left: 735px;
 }
 .inci div:nth-child(2) p:nth-child(4) {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 400;
@@ -65,13 +66,12 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
 }
 .inci div:nth-child(2) p:nth-child(4) img {
   margin-right: 13px;
 }
 .inci div:nth-child(2) p:nth-child(5) {
+  margin-bottom: 10px;
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 400;
@@ -79,13 +79,12 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
 }
 .inci div:nth-child(2) p:nth-child(5) img {
   margin-right: 10px;
 }
 .inci div:nth-child(2) p:nth-child(6) {
+  margin-bottom: 30px;
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 400;
@@ -93,8 +92,6 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
 }
 .inci div:nth-child(2) p:nth-child(6) img {
   margin-right: 18px;
@@ -129,7 +126,7 @@ body {
   border-radius: 5px;
   background-color: rgb(245, 246, 252);
 }
-@media all and (max-width: 740px) {
+@media all and (max-width: 480px) {
   .inci {
     flex-direction: column;
   }
@@ -142,11 +139,7 @@ body {
     margin-right: auto;
   }
   .inci div:nth-child(2) p:nth-child(2) {
-    font-size: 30px;
-    width: 100px;
-    height: auto;
-    overflow: visible;
-    font-family: DM Serif Display;
+    margin-top: 30px;
     font-family: DM Serif Display;
     font-size: 40px;
     font-weight: 550;
@@ -169,7 +162,7 @@ body {
   top: 2608px;
   margin: auto;
   display: grid;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: rgb(67, 76, 204);
   grid-template-areas: ". b1 b1 ." "b2 b3 b4 b5";
 }
@@ -181,13 +174,14 @@ body {
 .simili div:nth-child(1) p:nth-child(1) {
   font-family: DM Serif Display;
   font-size: 56px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 64px;
   letter-spacing: 0px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 .simili div:nth-child(1) p:nth-child(2) {
+  margin-top: 30px;
   font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
@@ -205,7 +199,7 @@ body {
 .simili div:nth-child(2) p:nth-child(1) {
   font-family: DM Serif Display;
   font-size: 72px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 80px;
   letter-spacing: 0px;
   margin: 0px;
@@ -222,13 +216,13 @@ body {
 }
 .simili div:nth-child(3) {
   grid-area: b3;
-  margin-left: 60px;
+  margin-left: 120px;
   margin-top: 0px;
 }
 .simili div:nth-child(3) p:nth-child(1) {
   font-family: DM Serif Display;
   font-size: 72px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 80px;
   letter-spacing: 0px;
   margin: 0px;
@@ -245,12 +239,12 @@ body {
 }
 .simili div:nth-child(4) {
   grid-area: b4;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .simili div:nth-child(4) p:nth-child(1) {
   font-family: DM Serif Display;
   font-size: 72px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 80px;
   letter-spacing: 0px;
   margin: 0px;
@@ -268,11 +262,12 @@ body {
 .simili div:nth-child(5) {
   grid-area: b5;
   margin-top: 0px;
+  margin-right: 10px;
 }
 .simili div:nth-child(5) p:nth-child(1) {
   font-family: DM Serif Display;
   font-size: 72px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 80px;
   letter-spacing: 0px;
   margin: 0px;
@@ -288,7 +283,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 480px) {
   .inci {
     width: 375px;
     height: 1056px;
@@ -302,6 +297,9 @@ body {
   .simili div {
     margin: 0;
     padding: 0;
+  }
+  .simili div:nth-child(3) {
+    margin-left: 30px;
   }
 }
 
