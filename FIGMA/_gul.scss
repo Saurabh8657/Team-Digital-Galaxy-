@@ -1,8 +1,8 @@
-// body{
-//   margin:0;
-//   padding:0;
-//   background-color: rgb(245, 246, 252);
-// }
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(245, 246, 252);
+}
 // 3rd layout start
 .inci {
   background-color: rgb(245, 246, 252);
@@ -142,11 +142,11 @@
           letter-spacing: 1px;
           border-radius: 5px;
           background-color: rgb(245, 246, 252);
-          transition:background-color 0.5s ,transition 0.9s;
+          transition: background-color 0.5s, transform 0.5s;
         }
         &:hover{
           background-color: rgb(206, 204, 204);
-          transform:scale(1.06);
+          transform:scale(1.05);
         }
       }
     }
