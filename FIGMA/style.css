@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 246, 252);
+}
+
 .inci {
   background-color: rgb(245, 246, 252);
   display: flex;
@@ -99,7 +105,11 @@
   width: 170px;
   height: 48px;
   font-size: medium;
-  margin: 0 10px; /* Add some spacing between buttons */
+  margin: 0 10px;
+  cursor: pointer;
+}
+.inci div:nth-child(2) div button:hover {
+  background-color: gray;
 }
 .inci div:nth-child(2) div button:nth-child(1) {
   background-color: rgb(67, 76, 204);
@@ -119,6 +129,11 @@
   letter-spacing: 1px;
   border-radius: 5px;
   background-color: rgb(245, 246, 252);
+  transition: background-color 0.5s, transition 0.9s;
+}
+.inci div:nth-child(2) div button:hover {
+  background-color: rgb(206, 204, 204);
+  transform: scale(1.06);
 }
 @media all and (max-width: 740px) {
   .inci {
@@ -147,6 +162,142 @@
   }
   .inci div:nth-child(2) div button:nth-child(1), .inci div:nth-child(2) div button:nth-child(2) {
     width: 120px;
+  }
+}
+
+.simili {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  justify-content: space-evenly;
+  background-color: rgb(67, 76, 204);
+  grid-template-areas: ". b1 b1 ." "b2 b3 b4 b5";
+}
+.simili div:nth-child(1) {
+  margin-top: 20px;
+  grid-area: b1;
+  margin-bottom: 40px;
+}
+.simili div:nth-child(1) p:nth-child(1) {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(1) p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(2) {
+  grid-area: b2;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.simili div:nth-child(2) p:nth-child(1) {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(2) p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.simili div:nth-child(3) {
+  grid-area: b3;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.simili div:nth-child(3) p:nth-child(1) {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(3) p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.simili div:nth-child(4) {
+  grid-area: b4;
+  margin-top: 30px;
+}
+.simili div:nth-child(4) p:nth-child(1) {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(4) p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.simili div:nth-child(5) {
+  grid-area: b5;
+  margin-top: 30px;
+}
+.simili div:nth-child(5) p:nth-child(1) {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+.simili div:nth-child(5) p:nth-child(2) {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media all and (max-width: 720px) {
+  .simili {
+    margin-top: 100px;
+    grid-template-areas: "b1" "b2" "b3" "b4" "b5";
+    text-align: center;
+  }
+  .simili div {
+    margin-left: 0;
+    padding: 0;
   }
 }
 

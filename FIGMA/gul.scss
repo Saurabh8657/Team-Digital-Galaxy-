@@ -1,173 +1,364 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(245, 246, 252);
+}
+// 3rd layout start
 .inci {
-    background-color: rgb(245,246,252);
-    display: flex;
-    flex-direction: row;
-  
-    div:nth-child(1) {
+  background-color: rgb(245, 246, 252);
+  display: flex;
+  flex-direction: row;
+
+  div:nth-child(1) {
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    grid-area: b1;
+
+    img {
       width: 100%;
-      max-width: 900px;
-      height: 100vh;
-      grid-area: b1;
-  
+      height: 100%;
+    }
+  }
+
+  div:nth-child(2) {
+    grid-area: b2;
+    width: 100%;
+    margin-top: 60px;
+
+    p:nth-child(1) {
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.3em;
+      text-align: left;
+    }
+
+    p:nth-child(2) {
+      font-family: DM Serif Display;
+      font-size: 56px;
+      font-weight: 550;
+      line-height: 64px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 460px;
+      height: 60px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    p:nth-child(3) {
+      font-family: DM Sans;
+      font-size: 25px;
+      font-weight: 450;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 620px;
+      height: fit-content;
+      top: 2105px;
+      left: 735px;
+
+    }
+
+    p:nth-child(4) {
       img {
-        width: 100%;
-        height: 100%;
+        margin-right: 13px;
+      }
+
+      font-family: DM Sans;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      color:rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+    }
+
+    p:nth-child(5) {
+      img {
+        margin-right: 10px;
+      }
+
+      font-family: DM Sans;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      color:rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+    }
+
+    p:nth-child(6) {
+      img {
+        margin-right: 18px;
+      }
+
+      font-family: DM Sans;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      color:rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+    }
+
+    div {
+      white-space: nowrap;
+
+      button {
+        width: 170px;
+        height: 48px;
+        font-size: medium;
+        margin: 0 10px;
+        cursor: pointer;
+        &:hover{
+          background-color: gray;
+        }
+
+        &:nth-child(1) {
+          background-color: rgb(67, 76, 204);
+          color: white;
+          font-weight: bold;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          border: none;
+          margin-top: 20px;
+        }
+
+        &:nth-child(2) {
+          color: rgb(67, 76, 204);
+          border-radius: 5px;
+          border: 1px solid rgb(119, 119, 236);
+          margin-top: 20px;
+          font-weight: bold;
+          letter-spacing: 1px;
+          border-radius: 5px;
+          background-color: rgb(245, 246, 252);
+          transition:background-color 0.5s ,transition 0.9s;
+        }
+        &:hover{
+          background-color: rgb(206, 204, 204);
+          transform:scale(1.06);
+        }
       }
     }
-  
+  }
+
+  @media all and (max-width: 740px) {
+    flex-direction: column;
+
     div:nth-child(2) {
-      grid-area: b2;
       width: 100%;
-      margin-top: 60px;
-  
-      p:nth-child(1) {
-        font-family: DM Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.3em;
-        text-align: left;
-      }
-  
+      margin-left: auto;
+      margin-right: auto;
+
       p:nth-child(2) {
+        font-size: 30px;
+        width: 100px;
+        height: auto;
+        overflow: visible;
         font-family: DM Serif Display;
-        font-size: 56px;
+        font-family: DM Serif Display;
+        font-size: 40px;
         font-weight: 550;
-        line-height: 64px;
+        line-height: 48px;
         letter-spacing: 0px;
         text-align: left;
-        max-width: 460px;
-        height: 60px;
-        white-space: nowrap;
-        overflow: hidden;
+
+
       }
-      p:nth-child(3){
-        font-family: DM Sans;
-        font-size: 25px;
-        font-weight: 450;
-        line-height: 32px;
-        letter-spacing: 0px;
-        text-align: left;
-        max-width: 620px;
-height:fit-content;
-top: 2105px;
-left: 735px;
 
-              }
-
-              p:nth-child(4){
-                img{
-                    margin-right: 13px;
-                }
-        font-family: DM Sans;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-        color:rgba(0, 0, 0, 0.5);
-        display: flex;
-        align-items: center;
-              }
-              p:nth-child(5){
-                img{
-                    margin-right: 10px;
-                }
-        font-family: DM Sans;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-        color:rgba(0, 0, 0, 0.5);
-        display: flex;
-        align-items: center;
-              }
-              p:nth-child(6){
-                img{
-                    margin-right: 18px;
-                }
-        font-family: DM Sans;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-        color:rgba(0, 0, 0, 0.5);
-        display: flex;
-        align-items: center;
-              }
-  
       div {
-        white-space: nowrap;
-  
         button {
-          width: 170px;
-          height: 48px;
-          font-size: medium;
-          margin: 0 10px; /* Add some spacing between buttons */
-          
-          &:nth-child(1) {
-            background-color: rgb(67, 76, 204);
-            color: white;
-            font-weight: bold;
-            letter-spacing: 1px;
-            border-radius: 5px;
-            border: none;
-            margin-top: 20px;
-          }
-  
-          &:nth-child(2) {
-            color: rgb(67, 76, 204);
-            border-radius: 5px;
-            border: 1px solid rgb(119, 119, 236);
-            margin-top: 20px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            border-radius: 5px;
-            background-color: rgb(245,246,252);
-          }
-        }
-      }
-    }
-  
-    @media all and (max-width: 740px) {
-      flex-direction: column;
-  
-      div:nth-child(2) {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-  
-        p:nth-child(2) {
-          font-size: 30px;
-          width:100px;
-          height: auto;
-          overflow: visible;
-          font-family: DM Serif Display;
-          //styleName: H3;
-font-family: DM Serif Display;
-font-size: 40px;
-font-weight: 550;
-line-height: 48px;
-letter-spacing: 0px;
-text-align: left;
+          font-size: 14px;
 
-    
-        }
-  
-        div {
-          button {
-            font-size: 14px;
-  
-            &:nth-child(1) ,&:nth-child(2) {
-              width: 120px;
-            }
+          &:nth-child(1),
+          &:nth-child(2) {
+            width: 120px;
           }
         }
       }
     }
   }
-  
+}
+// 3rd layout end
+
+
+
+// 4th layout start
+.simili {
+ 
+  width: 100%;
+  height:auto;
+  margin: auto;
+  display: grid;
+  justify-content: space-evenly;
+  background-color: rgba(67, 76, 204, 1);
+  grid-template-areas:
+    ". b1 b1 ."
+    "b2 b3 b4 b5";
+
+  div:nth-child(1) {
+    margin-top: 20px;
+    grid-area: b1;
+    margin-bottom: 40px;
+    p:nth-child(1) {
+      font-family: DM Serif Display;
+      font-size: 56px;
+      font-weight: 600;
+      line-height: 64px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    p:nth-child(2) {
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  div:nth-child(2) {
+    grid-area: b2;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    p:nth-child(1) {
+
+      font-family: DM Serif Display;
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 80px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    p:nth-child(2) {
+      font-family: DM Sans;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+  }
+
+  div:nth-child(3) {
+    grid-area: b3;
+    margin-left: 60px;
+    margin-top: 30px;
+    p:nth-child(1) {
+      font-family: DM Serif Display;
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 80px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    p:nth-child(2) {
+      font-family: DM Sans;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+  }
+
+  div:nth-child(4) {
+    grid-area: b4;
+    margin-top: 30px;
+    p:nth-child(1) {
+      font-family: DM Serif Display;
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 80px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    p:nth-child(2) {
+      font-family: DM Sans;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+  }
+
+  div:nth-child(5) {
+    grid-area: b5;
+    margin-top: 30px;
+    p:nth-child(1) {
+      font-family: DM Serif Display;
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 80px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 1);
+
+    }
+
+    p:nth-child(2) {
+      font-family: DM Sans;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+  }
+ 
   
 
+}
+
+@media all and (max-width: 720px) {
+  .simili {
+    margin-top: 100px;
+    grid-template-areas:
+      "b1"
+      "b2"
+      "b3"
+      "b4"
+      "b5";
+    text-align: center;
+    div{
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
+}
+
+// 4th layout end
