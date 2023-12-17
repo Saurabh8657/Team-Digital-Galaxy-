@@ -52,6 +52,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   margin-top: 40px;
+  height: -moz-fit-content;
   height: fit-content;
   top: 2105px;
   left: 735px;
@@ -301,6 +302,4 @@ body {
   .simili div:nth-child(3) {
     margin-left: 30px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
