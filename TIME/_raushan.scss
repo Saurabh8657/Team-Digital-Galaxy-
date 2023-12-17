@@ -13,6 +13,7 @@
     align-items: center;
     border-top: 1px solid #686c73;
     border-bottom: 1px solid #686c73;
+    margin-top: 20px;
 
 }
 .inner{
@@ -51,4 +52,17 @@ a{
     text-decoration: none;
     font-weight: 500;
     color: #78170f;
+}
+.circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    border: solid 3px red;
+    margin: 5px;
+
+}
+.fa fa-facebook{
+    width: 22px;
+    height: 20px;
+    
 }
