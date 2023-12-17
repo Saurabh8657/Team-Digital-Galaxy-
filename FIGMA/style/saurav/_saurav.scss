@@ -14,6 +14,9 @@ nav{
      font-weight: 400;
      font-family: 'DM Serif Display', serif;
     }
+    h3:hover{
+        cursor: pointer;
+    }
     div{
      display: flex;
      align-items: center;
@@ -25,6 +28,11 @@ nav{
              font-family: 'DM Sans', sans-serif;
              font-size: 16px;
              font-weight: 700;
+             transition: 0.3s;
+         }
+         a:hover{
+            text-decoration: underline white 2px;
+            transform: translateY(-3px);
          }
          button{
              height: 48px;
@@ -38,7 +46,11 @@ nav{
              font-size: 16px;
              font-weight: 700;
              cursor: pointer;
+             transition: 0.3s;
          }
+         button:hover{
+            transform: scale(1.05);
+        }
     }
  }
  #menu{
@@ -205,6 +217,11 @@ nav{
     img{
         margin-right: -119px;
         margin-left: 482px;
+        transition: 0.3s;
+    }
+    img:hover{
+        cursor: pointer;
+        transform: scale(1.05);
     }
 }
 @media all and (max-width:480px){
