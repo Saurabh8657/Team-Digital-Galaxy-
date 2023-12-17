@@ -311,6 +311,11 @@ nav div button:hover {
 .cont1 div img {
   display: flex;
   padding-right: 30px;
+  transition: 0.3s;
+}
+.cont1 div img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 .cont1 div h4 {
   margin-top: 60px;

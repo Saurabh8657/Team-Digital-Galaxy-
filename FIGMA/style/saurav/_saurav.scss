@@ -318,8 +318,12 @@ nav{
         img{
             display: flex;
             padding-right: 30px;
+            transition: 0.3s;
         }
-        
+        img:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+        }
         h4{
             margin-top: 60px;
             margin-left: 0%;
