@@ -1,0 +1,383 @@
+
+.section11{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+
+}
+$aleftFont: Oswald, Lora, georgia, times, serif;
+$arightFont: Roboto, HelveticaNeue, sans-serif;
+$pFont: Zilla Slab, lora, georgia, times, serif;
+
+.health{
+    >div:nth-child(1){
+        // width: 100%;
+        // height: 2px;
+        // background-color: black;
+        // margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}
+.Entertainment{
+    >div:nth-child(1){
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}
+.family{
+    >div:nth-child(1){
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}
+.finance{
+    >div:nth-child(1){
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}
+.Future{
+    >div:nth-child(1){
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        justify-content: space-between;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}
+.Shopping{
+    >div:nth-child(1){
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-top: 50px;
+    }
+
+    >div:nth-child(2){
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        a:nth-child(1){
+            text-decoration: none;
+            font-size: 36px;
+            color: black;
+            font-family: $aleftFont;
+        }
+        a:nth-child(2){
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: underline;
+            font-family: $arightFont;
+        }
+    }
+    >div:nth-child(3){
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+
+        div{
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            transition: transform 1s;
+            cursor: pointer;
+            img{
+                width: 285px;
+                transition: transform 0.3s;
+            }
+            img:hover{
+                transform: scale(1.05);
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $pFont;
+            }
+            p:hover{
+                color: red;
+            }
+        }
+        
+    }
+    >:nth-child(3)::-webkit-scrollbar{
+        display: none;
+    }
+}

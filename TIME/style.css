@@ -1,8 +1,787 @@
+.section6 {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, rgb(246, 240, 236), rgb(245, 228, 221));
+  background-image: radial-gradient(circle at 10%, transparent 5%, rgba(224, 85, 85, 0.5) 51%);
+  height: 490px;
+  width: 90%;
+  margin: 50px 50px 70px 70px;
+}
+.section6 div:nth-child(1) {
+  height: 120px;
+  width: 300px;
+  margin-top: 20px;
+}
+.section6 div:nth-child(1) div:nth-child(1) {
+  font-family: Zilla Slab, serif;
+  font-family: rgba(0, 0, 0, 0.95);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+}
+.section6 div:nth-child(1) div:nth-child(2) {
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.95);
+}
+.section6 div:nth-child(1) div:nth-child(3) button {
+  background-color: red;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+.section6 div:nth-child(2) img {
+  margin-top: 20px;
+  transition: transform 0.9s;
+  animation: scaleAnimation 0.9s infinite alternate;
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.09);
+  }
+}
+
+.listen {
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+.listen iframe {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.section7 {
+  font-family: Oswald, sans-serif;
+  padding: 10px 10px 10px 15px;
+  text-align: center;
+  background-color: #191919;
+}
+.section7 div:nth-child(1) {
+  margin-bottom: 20px;
+}
+.section7 div:nth-child(1) span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #e90606;
+}
+.section7 div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.section7 div:nth-child(2) img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.6s;
+}
+.section7 div:nth-child(2) img:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  border: 2px solid red;
+}
+
+.section8 {
+  margin-top: 50px;
+  margin-left: 300px;
+  border: 1px solid black;
+  width: 900px;
+  height: 200px;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+.section8 > div:nth-child(1) {
+  width: 1000px;
+  height: 150px;
+  background-color: rgb(240, 241, 242);
+  position: absolute;
+  left: 250px;
+  top: 5200px;
+}
+.section8 div:nth-child(2) {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 80px;
+  left: 90px;
+  font-size: large;
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+}
+.section8 button {
+  position: relative;
+  left: 700px;
+  font-weight: bold;
+  bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20%;
+  font-family: "Roboto Condensed", "Arial Narrow", arial, sans-serif;
+  border: none;
+  background-color: red;
+  color: white;
+  transition: transform 0.2s;
+}
+.section8 button:hover {
+  background-color: white;
+  color: red;
+  border: rgb(239, 236, 236);
+  transform: scale(1.05);
+}
+.section8 .fa-paper-plane {
+  position: relative;
+  bottom: 100px;
+  right: 60px;
+  font-size: 100px;
+  transition: transform 0.9s;
+  animation: scaleAnimation 0.9s infinite alternate;
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.06);
+  }
+}
+
+.section9 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+  cursor: pointer;
+}
+.section9 > div:nth-child(1) {
+  display: flex;
+}
+.section9 > div:nth-child(1) div:nth-child(1) {
+  font-family: Oswald, sans-serif;
+  font-family: Oswald, Lora, georgia, times, serif;
+  font-size: 36px;
+  font-weight: 400px;
+  color: black;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.section9 > div:nth-child(1) div:nth-child(2) {
+  font-family: Roboto, sans-serif;
+  margin-left: 810px;
+  color: red;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+.section9 > div:nth-child(2) {
+  position: relative;
+  top: 30px;
+  width: 1240px;
+  display: grid;
+  grid-template-areas: "b1 b1 b2 b3" "b1 b1 b4 b5";
+  gap: 25px;
+  margin: auto;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) {
+  grid-area: b1;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) img {
+  width: 100%;
+  height: 65%;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: Zilla Slab, serif;
+  font-family: "PT Serif", georgia, times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  margin-top: 25px;
+  transition: transform 0.1s;
+}
+.section9 > div:nth-child(2) > div:nth-child(1) h2:hover {
+  color: red;
+  transform: scale(1.02);
+}
+.section9 > div:nth-child(2) > div:nth-child(1) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(99, 83, 103);
+  margin-top: 20px;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) {
+  grid-area: b2;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(2) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(3) {
+  grid-area: b3;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) img {
+  width: 100%;
+  height: 75%;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(3) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(4) {
+  grid-area: b4;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(4) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section9 > div:nth-child(2) > div:nth-child(5) {
+  grid-area: b5;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) img {
+  width: 100%;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+}
+.section9 > div:nth-child(2) > div:nth-child(5) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+
+.section10 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: auto;
+  cursor: pointer;
+}
+.section10 > div:nth-child(1) {
+  display: flex;
+}
+.section10 > div:nth-child(1) div:nth-child(1) {
+  font-family: Oswald, Lora, georgia, times, serif;
+  font-size: 36px;
+  font-weight: 400px;
+  color: black;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.section10 > div:nth-child(1) div:nth-child(2) {
+  margin-left: 810px;
+  color: red;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+.section10 > div:nth-child(2) {
+  position: relative;
+  top: 30px;
+  width: 1240px;
+  display: grid;
+  grid-template-areas: "b1 b1 b2 b3" "b1 b1 b4 b5";
+  gap: 25px;
+  margin: auto;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) {
+  grid-area: b1;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) img {
+  width: 100%;
+  height: 65%;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: Zilla Slab, serif;
+  font-family: "PT Serif", georgia, times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  margin-top: 25px;
+  transition: transform 0.1s;
+}
+.section10 > div:nth-child(2) > div:nth-child(1) h2:hover {
+  color: red;
+  transform: scale(1.02);
+}
+.section10 > div:nth-child(2) > div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(99, 83, 103);
+  margin-top: 20px;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) {
+  grid-area: b2;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) img {
+  width: 100%;
+  height: 75%;
+}
+.section10 > div:nth-child(2) > div:nth-child(2) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(2) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(3) {
+  grid-area: b3;
+}
+.section10 > div:nth-child(2) > div:nth-child(3) img {
+  width: 100%;
+  height: 75%;
+}
+.section10 > div:nth-child(2) > div:nth-child(3) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(3) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(4) {
+  margin-top: 10px;
+  grid-area: b4;
+}
+.section10 > div:nth-child(2) > div:nth-child(4) img {
+  width: 100%;
+}
+.section10 > div:nth-child(2) > div:nth-child(4) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(4) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+.section10 > div:nth-child(2) > div:nth-child(5) {
+  margin-top: 10px;
+  grid-area: b5;
+}
+.section10 > div:nth-child(2) > div:nth-child(5) img {
+  width: 100%;
+  height: 64%;
+}
+.section10 > div:nth-child(2) > div:nth-child(5) p {
+  font-family: "Zilla Slab", Lora, georgia, times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  transition: transform 0.1s;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.section10 > div:nth-child(2) > div:nth-child(5) p:hover {
+  color: red;
+  transform: scale(1.06);
+}
+
+.section11 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+}
+
+.health > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.health > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.health > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.health > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: 10px;
+}
+.health > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.health > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.health > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.health > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.health > div:nth-child(3) div p:hover {
+  color: red;
+}
+.health > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Entertainment > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Entertainment > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Entertainment > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.Entertainment > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.Entertainment > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: 10px;
+}
+.Entertainment > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Entertainment > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Entertainment > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Entertainment > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.Entertainment > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Entertainment > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.family > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.family > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.family > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.family > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.family > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: 10px;
+}
+.family > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.family > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.family > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.family > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.family > div:nth-child(3) div p:hover {
+  color: red;
+}
+.family > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.finance > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.finance > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finance > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.finance > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.finance > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: 10px;
+}
+.finance > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.finance > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.finance > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.finance > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.finance > div:nth-child(3) div p:hover {
+  color: red;
+}
+.finance > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Future > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Future > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Future > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.Future > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.Future > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+}
+.Future > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Future > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Future > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Future > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.Future > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Future > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
+.Shopping > div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 50px;
+}
+.Shopping > div:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Shopping > div:nth-child(2) a:nth-child(1) {
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  font-family: Oswald, Lora, georgia, times, serif;
+}
+.Shopping > div:nth-child(2) a:nth-child(2) {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Roboto, HelveticaNeue, sans-serif;
+}
+.Shopping > div:nth-child(3) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: 10px;
+}
+.Shopping > div:nth-child(3) div {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+.Shopping > div:nth-child(3) div img {
+  width: 285px;
+  transition: transform 0.3s;
+}
+.Shopping > div:nth-child(3) div img:hover {
+  transform: scale(1.05);
+}
+.Shopping > div:nth-child(3) div p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Zilla Slab, lora, georgia, times, serif;
+}
+.Shopping > div:nth-child(3) div p:hover {
+  color: red;
+}
+.Shopping > :nth-child(3)::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: serif, Georgia, Times, serif;
 }
 
 .navbar1 {
@@ -13,6 +792,7 @@
   justify-content: space-between;
 }
 .navbar1 p {
+  font-family: Roboto, sans-serif;
   margin-top: 5px;
   font-size: 1.1em;
   font-weight: 600;
@@ -22,6 +802,7 @@
   cursor: pointer;
 }
 .navbar1 h1 {
+  font-family: pt serif, georgia, times, serif;
   font-size: 2em;
   font-weight: 500;
   color: #e90606;
@@ -31,6 +812,7 @@
   cursor: pointer;
 }
 .navbar1 #signin {
+  font-family: Roboto, sans-serif;
   width: auto;
   border-radius: 4px;
   border: none;
@@ -45,6 +827,7 @@
   background-color: rgba(233, 6, 6, 0.3647058824);
 }
 .navbar1 #subscribe {
+  font-family: Roboto, sans-serif;
   width: 160px;
   border-radius: 4px;
   border: none;
@@ -76,6 +859,7 @@
   cursor: pointer;
 }
 .navbar2 p {
+  font-family: Roboto, sans-serif;
   margin-top: 20px;
   margin-right: 80px;
   color: rgba(0, 0, 0, 0.982);
@@ -123,12 +907,14 @@
   color: white;
 }
 .section1 > div:nth-child(1) .col-md-4 h5 {
+  font-family: Zilla Slab, serif;
   font-size: 30px;
 }
 .section1 > div:nth-child(1) .col-md-4 .text-body-secondary {
   color: white;
 }
 .section1 > div:nth-child(1) .col-md-4 p {
+  font-family: Roboto, sans-serif;
   color: #e90606;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) {
@@ -148,10 +934,12 @@
   cursor: pointer;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) {
+  font-family: Zilla Slab, serif;
   color: #28333a;
   font-size: 20px;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) + p {
+  font-family: Roboto, sans-serif;
   font-size: 0.8em;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1):hover {
@@ -172,6 +960,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 35px;
+  font-family: Roboto, sans-serif;
 }
 .section1 > div:nth-child(2) div div {
   padding: 0 60px;
@@ -184,6 +973,7 @@
 .section1 > div:nth-child(2) div div span:nth-child(2) {
   font-weight: 600;
   color: #e90606;
+  font-family: Zilla Slab, serif;
 }
 .section1 > div:nth-child(2) div img {
   margin-left: 30px;
@@ -206,6 +996,7 @@
   margin-bottom: 50px;
 }
 .section2 > div:nth-child(1) span {
+  font-family: Oswald, sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: rgba(233, 6, 6, 0.8196078431);
@@ -225,6 +1016,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(1) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -238,6 +1030,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(1) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -247,6 +1040,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -262,6 +1056,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(2) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -275,6 +1070,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(2) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -284,6 +1080,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -299,6 +1096,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(3) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -312,6 +1110,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(3) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -321,6 +1120,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(3) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -336,6 +1136,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(4) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -349,6 +1150,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(4) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -358,6 +1160,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(4) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -373,6 +1176,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(5) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -386,6 +1190,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(5) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -395,6 +1200,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(5) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -420,6 +1226,7 @@
   margin: 20px 0;
 }
 .section3 div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   color: #e90606;
   text-decoration: underline;
@@ -431,6 +1238,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+}
+.section3 div:nth-child(2) p {
+  font-family: Zilla Slab, serif;
 }
 .section3 div:nth-child(2) div:hover {
   cursor: pointer;
@@ -478,11 +1288,13 @@
   width: fit-content;
 }
 .section4 .whole .left > div:nth-child(2) h3 {
+  font-family: Zilla Slab, serif;
   color: white;
   font-size: 1.5em;
   font-weight: 600;
 }
 .section4 .whole .left > div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 1em;
   font-weight: 400;
@@ -497,10 +1309,12 @@
   flex-direction: column;
 }
 .section4 .whole .right div div:nth-child(2) h2 {
+  font-family: Zilla Slab, serif;
   color: white;
   font-size: 1em;
 }
 .section4 .whole .right div div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
 }
 
@@ -514,6 +1328,7 @@
   flex: 3;
 }
 .section5 > div:nth-child(1) > h4 {
+  font-family: Oswald, sans-serif;
   color: black;
   font-size: 2.5em;
   font-weight: 600;
@@ -530,6 +1345,7 @@
   flex-direction: column;
 }
 .section5 > div:nth-child(1) div div h4 {
+  font-family: Zilla Slab, serif;
   color: #e90606;
   font-size: 2em;
   font-weight: 600;
@@ -538,6 +1354,7 @@
   cursor: pointer;
 }
 .section5 > div:nth-child(1) div div p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 1.5em;
   font-weight: 400;
@@ -549,16 +1366,19 @@
   border-radius: 5px;
 }
 .section5 > div:nth-child(2) h4 {
+  font-family: Roboto, sans-serif;
   text-align: center;
   color: black;
   font-size: 1.5em;
   font-weight: 600;
 }
 .section5 > div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 0.8em;
 }
 .section5 > div:nth-child(2) h5 {
+  font-family: Zilla Slab, serif;
   color: black;
   font-size: 1.1em;
   margin-top: 30px;
@@ -566,6 +1386,78 @@
 .section5 > div:nth-child(2) h5:hover {
   cursor: pointer;
   color: #e90606;
+}
+
+.d-flex {
+  color: red;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "PT Serif", georgia, times, serif;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  /* border: solid 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #686c73;
+  border-bottom: 1px solid #686c73;
+  margin-top: 20px;
+}
+
+.inner {
+  width: 75%;
+  height: 350px;
+  /* border: solid 2px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.inner > div {
+  /* border: 2px solid; */
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  /* line-height: 12px; */
+  font-weight: 300;
+  color: #686c73;
+}
+
+.lastfoot {
+  width: 100%;
+  height: 60px;
+  /* border: solid 2px ; */
+}
+.lastfoot p {
+  font-family: "PT Serif", georgia, times, serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #383838;
+  padding-top: 15px;
+}
+.lastfoot a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #78170f;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: solid 3px red;
+  margin: 5px;
+}
+
+.fa fa-facebook {
+  width: 22px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
