@@ -13,6 +13,7 @@
   margin-top: 20px;
 }
 .section6 div:nth-child(1) div:nth-child(1) {
+  font-family: Zilla Slab, serif;
   font-family: rgba(0, 0, 0, 0.95);
   font-size: 24px;
   font-weight: 700;
@@ -48,6 +49,7 @@
 }
 
 .listen {
+  font-family: Oswald, sans-serif;
   text-align: center;
 }
 .listen iframe {
@@ -56,6 +58,7 @@
 }
 
 .section7 {
+  font-family: Oswald, sans-serif;
   padding: 10px 10px 10px 15px;
   text-align: center;
   background-color: #191919;
@@ -156,6 +159,7 @@
   display: flex;
 }
 .section9 > div:nth-child(1) div:nth-child(1) {
+  font-family: Oswald, sans-serif;
   font-family: Oswald, Lora, georgia, times, serif;
   font-size: 36px;
   font-weight: 400px;
@@ -164,6 +168,7 @@
   margin-left: 40px;
 }
 .section9 > div:nth-child(1) div:nth-child(2) {
+  font-family: Roboto, sans-serif;
   margin-left: 810px;
   color: red;
   font-family: Roboto, HelveticaNeue, sans-serif;
@@ -189,6 +194,7 @@
   height: 65%;
 }
 .section9 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: Zilla Slab, serif;
   font-family: "PT Serif", georgia, times, serif;
   font-weight: 600;
   font-size: 30px;
@@ -327,6 +333,7 @@
   height: 65%;
 }
 .section10 > div:nth-child(2) > div:nth-child(1) h2 {
+  font-family: Zilla Slab, serif;
   font-family: "PT Serif", georgia, times, serif;
   font-weight: 600;
   font-size: 30px;
@@ -339,6 +346,7 @@
   transform: scale(1.02);
 }
 .section10 > div:nth-child(2) > div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
   font-family: "Zilla Slab", Lora, georgia, times, serif;
   font-weight: 500;
   font-size: 20px;
@@ -456,8 +464,7 @@
 .health > div:nth-child(3) {
   display: flex;
   overflow-x: auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .health > div:nth-child(3) div {
   width: 285px;
@@ -477,7 +484,7 @@
 .health > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .health > div:nth-child(3) div p:hover {
   color: red;
@@ -514,8 +521,7 @@
 .Entertainment > div:nth-child(3) {
   display: flex;
   overflow-x: auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .Entertainment > div:nth-child(3) div {
   width: 285px;
@@ -535,7 +541,7 @@
 .Entertainment > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .Entertainment > div:nth-child(3) div p:hover {
   color: red;
@@ -572,8 +578,7 @@
 .family > div:nth-child(3) {
   display: flex;
   overflow-x: auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .family > div:nth-child(3) div {
   width: 285px;
@@ -593,7 +598,7 @@
 .family > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .family > div:nth-child(3) div p:hover {
   color: red;
@@ -630,8 +635,7 @@
 .finance > div:nth-child(3) {
   display: flex;
   overflow-x: auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .finance > div:nth-child(3) div {
   width: 285px;
@@ -651,7 +655,7 @@
 .finance > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .finance > div:nth-child(3) div p:hover {
   color: red;
@@ -708,7 +712,7 @@
 .Future > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .Future > div:nth-child(3) div p:hover {
   color: red;
@@ -745,8 +749,7 @@
 .Shopping > div:nth-child(3) {
   display: flex;
   overflow-x: auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .Shopping > div:nth-child(3) div {
   width: 285px;
@@ -766,7 +769,7 @@
 .Shopping > div:nth-child(3) div p {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Zilla Slab", lora, georgia, times, serif;
+  font-family: Zilla Slab, lora, georgia, times, serif;
 }
 .Shopping > div:nth-child(3) div p:hover {
   color: red;
@@ -779,7 +782,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: serif, Georgia, Times, serif;
 }
 
 .navbar1 {
@@ -790,6 +792,7 @@
   justify-content: space-between;
 }
 .navbar1 p {
+  font-family: Roboto, sans-serif;
   margin-top: 5px;
   font-size: 1.1em;
   font-weight: 600;
@@ -799,6 +802,7 @@
   cursor: pointer;
 }
 .navbar1 h1 {
+  font-family: pt serif, georgia, times, serif;
   font-size: 2em;
   font-weight: 500;
   color: #e90606;
@@ -808,6 +812,7 @@
   cursor: pointer;
 }
 .navbar1 #signin {
+  font-family: Roboto, sans-serif;
   width: auto;
   border-radius: 4px;
   border: none;
@@ -822,6 +827,7 @@
   background-color: rgba(233, 6, 6, 0.3647058824);
 }
 .navbar1 #subscribe {
+  font-family: Roboto, sans-serif;
   width: 160px;
   border-radius: 4px;
   border: none;
@@ -853,6 +859,7 @@
   cursor: pointer;
 }
 .navbar2 p {
+  font-family: Roboto, sans-serif;
   margin-top: 20px;
   margin-right: 80px;
   color: rgba(0, 0, 0, 0.982);
@@ -900,12 +907,14 @@
   color: white;
 }
 .section1 > div:nth-child(1) .col-md-4 h5 {
+  font-family: Zilla Slab, serif;
   font-size: 30px;
 }
 .section1 > div:nth-child(1) .col-md-4 .text-body-secondary {
   color: white;
 }
 .section1 > div:nth-child(1) .col-md-4 p {
+  font-family: Roboto, sans-serif;
   color: #e90606;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) {
@@ -925,10 +934,12 @@
   cursor: pointer;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) {
+  font-family: Zilla Slab, serif;
   color: #28333a;
   font-size: 20px;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1) + p {
+  font-family: Roboto, sans-serif;
   font-size: 0.8em;
 }
 .section1 > div:nth-child(1) > div:nth-child(2) > div > div > p:nth-child(1):hover {
@@ -949,6 +960,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 35px;
+  font-family: Roboto, sans-serif;
 }
 .section1 > div:nth-child(2) div div {
   padding: 0 60px;
@@ -961,6 +973,7 @@
 .section1 > div:nth-child(2) div div span:nth-child(2) {
   font-weight: 600;
   color: #e90606;
+  font-family: Zilla Slab, serif;
 }
 .section1 > div:nth-child(2) div img {
   margin-left: 30px;
@@ -983,6 +996,7 @@
   margin-bottom: 50px;
 }
 .section2 > div:nth-child(1) span {
+  font-family: Oswald, sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: rgba(233, 6, 6, 0.8196078431);
@@ -1002,6 +1016,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(1) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -1015,6 +1030,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(1) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -1024,6 +1040,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -1039,6 +1056,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(2) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -1052,6 +1070,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(2) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -1061,6 +1080,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -1076,6 +1096,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(3) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -1089,6 +1110,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(3) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -1098,6 +1120,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(3) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -1113,6 +1136,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(4) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -1126,6 +1150,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(4) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -1135,6 +1160,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(4) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -1150,6 +1176,7 @@
   transition: 0.3s;
 }
 .section2 > div:nth-child(2) div:nth-child(5) button {
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   color: white;
   font-weight: 500;
@@ -1163,6 +1190,7 @@
   left: 4%;
 }
 .section2 > div:nth-child(2) div:nth-child(5) h4 {
+  font-family: Zilla Slab, serif;
   font-size: 1em;
   color: white;
   font-weight: 500;
@@ -1172,6 +1200,7 @@
   top: 71%;
 }
 .section2 > div:nth-child(2) div:nth-child(5) p {
+  font-family: Roboto, sans-serif;
   font-size: 1.5em;
   color: white;
   font-weight: 500;
@@ -1197,6 +1226,7 @@
   margin: 20px 0;
 }
 .section3 div:nth-child(1) p {
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   color: #e90606;
   text-decoration: underline;
@@ -1208,6 +1238,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+}
+.section3 div:nth-child(2) p {
+  font-family: Zilla Slab, serif;
 }
 .section3 div:nth-child(2) div:hover {
   cursor: pointer;
@@ -1243,7 +1276,6 @@
   gap: 30px;
 }
 .section4 .whole .left {
-  width: -moz-fit-content;
   width: fit-content;
 }
 .section4 .whole .left > div:nth-child(2) {
@@ -1253,15 +1285,16 @@
 }
 .section4 .whole .left > div:nth-child(2) div {
   margin-top: 50px;
-  width: -moz-fit-content;
   width: fit-content;
 }
 .section4 .whole .left > div:nth-child(2) h3 {
+  font-family: Zilla Slab, serif;
   color: white;
   font-size: 1.5em;
   font-weight: 600;
 }
 .section4 .whole .left > div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 1em;
   font-weight: 400;
@@ -1276,10 +1309,12 @@
   flex-direction: column;
 }
 .section4 .whole .right div div:nth-child(2) h2 {
+  font-family: Zilla Slab, serif;
   color: white;
   font-size: 1em;
 }
 .section4 .whole .right div div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
 }
 
@@ -1293,6 +1328,7 @@
   flex: 3;
 }
 .section5 > div:nth-child(1) > h4 {
+  font-family: Oswald, sans-serif;
   color: black;
   font-size: 2.5em;
   font-weight: 600;
@@ -1309,6 +1345,7 @@
   flex-direction: column;
 }
 .section5 > div:nth-child(1) div div h4 {
+  font-family: Zilla Slab, serif;
   color: #e90606;
   font-size: 2em;
   font-weight: 600;
@@ -1317,6 +1354,7 @@
   cursor: pointer;
 }
 .section5 > div:nth-child(1) div div p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 1.5em;
   font-weight: 400;
@@ -1328,16 +1366,19 @@
   border-radius: 5px;
 }
 .section5 > div:nth-child(2) h4 {
+  font-family: Roboto, sans-serif;
   text-align: center;
   color: black;
   font-size: 1.5em;
   font-weight: 600;
 }
 .section5 > div:nth-child(2) p {
+  font-family: Roboto, sans-serif;
   color: #62656b;
   font-size: 0.8em;
 }
 .section5 > div:nth-child(2) h5 {
+  font-family: Zilla Slab, serif;
   color: black;
   font-size: 1.1em;
   margin-top: 30px;
@@ -1417,4 +1458,6 @@ li {
 .fa fa-facebook {
   width: 22px;
   height: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,12 @@
 @import "gulshaba";
 @import "section11";
-
+$Oswald: Oswald, sans-serif;
+$Roboto: Roboto, sans-serif;
+$Zilla: Zilla Slab, serif;
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif, Georgia, Times, serif;
 }
 .navbar1{
     width: 100%;
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     p{
+        font-family: $Roboto;
         margin-top: 5px;
         font-size: 1.1em;
         font-weight: 600;
@@ -23,6 +25,7 @@
         cursor: pointer;
     }
     h1{
+        font-family: pt serif, georgia, times, serif;
         font-size: 2em;
         font-weight: 500;
         color: #e90606 ;
@@ -32,6 +35,7 @@
         cursor: pointer;
     }
     #signin{
+        font-family: $Roboto;
         width: auto;
         border-radius: 4px;
         border: none;
@@ -46,6 +50,7 @@
         background-color: #e906065d ;
     }
     #subscribe{
+        font-family: $Roboto;
         width: 160px;
         border-radius: 4px;
         border: none;
@@ -76,6 +81,7 @@
         cursor: pointer;
     }
     p{
+        font-family: $Roboto;
         margin-top: 20px;
         margin-right: 80px;
         color: rgba(0, 0, 0, 0.982);
@@ -123,12 +129,14 @@
             background-color: #191919;
             color: white;
             h5{
+                font-family: $Zilla;
                 font-size: 30px;
             }
             .text-body-secondary{
                 color: white;
             }
             p{
+                font-family: $Roboto;
                 color: #e90606;
             }
         }
@@ -148,10 +156,12 @@
                 cursor: pointer;
             }
             >div>div>p:nth-child(1){
+                font-family: $Zilla;
                 color: #28333a;
                 font-size: 20px;
             }
             >div>div>p:nth-child(1)+p{
+                font-family: $Roboto;
                 font-size: 0.8em;
             }
             >div>div>p:nth-child(1):hover{
@@ -173,6 +183,7 @@
                 text-align: center;
                 font-weight: 600;
                 font-size: 35px;
+                font-family: $Roboto;
             }
             div{
                 padding: 0 60px;
@@ -184,6 +195,7 @@
                 span:nth-child(2){
                     font-weight: 600;
                     color: #e90606;
+                    font-family: $Zilla;
                 }
             }
             img{
@@ -207,6 +219,7 @@
 }
 @mixin saurav2 {
     button{
+        font-family: $Roboto;
         font-size: 0.9em;
         color: white;
         font-weight: 500;
@@ -220,6 +233,7 @@
         left: 4%;
     }
     h4{
+        font-family: $Zilla;
         font-size: 1em;
         color: white;
         font-weight: 500;
@@ -229,6 +243,7 @@
         top: 71%;
     }
     p{
+        font-family: $Roboto;
         font-size: 1.5em;
         color: white;
         font-weight: 500;
@@ -247,6 +262,7 @@
         text-align: center;
         margin-bottom: 50px;
         span{
+             font-family: $Oswald;
             font-size: 40px;
             font-weight: 600;
             color: #e90606d1;
@@ -307,6 +323,7 @@
         align-items: center;
         margin: 20px 0;
         p{
+            font-family: $Roboto;
             font-size: 20px;
             color: #e90606;
             text-decoration: underline ;
@@ -320,6 +337,9 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
         gap: 40px;
+        p{
+            font-family: $Zilla;
+        }
         div:hover{
             cursor:pointer
         }
@@ -366,12 +386,14 @@
                     width: fit-content;
                 }
                 h3{
+                    font-family: $Zilla;
                     color: white;
                     font-size: 1.5em;
                     font-weight: 600;
 
                 }
                 p{
+                    font-family: $Roboto;
                     color: #62656b;
                     font-size: 1em;
                     font-weight: 400;
@@ -387,11 +409,13 @@
                 div:nth-child(2){
                     flex-direction: column;
                     h2{
+                        font-family: $Zilla;
                         color: white;
                         font-size: 1em;
                         
                     }
                     p{
+                        font-family: $Roboto;
                         color: #62656b;
                     }
                 }
@@ -408,6 +432,7 @@
     >div:nth-child(1){
         flex: 3;
         >h4{
+            font-family: $Oswald;
             color: black;
             font-size: 2.5em;
             font-weight: 600;
@@ -420,6 +445,7 @@
             gap: 10px 20px ;
             div{
                 h4{
+                    font-family: $Zilla;
                     color: #e90606;
                     font-size: 2em;
                     font-weight: 600;
@@ -428,6 +454,7 @@
                     cursor: pointer;
                 }
                 p{
+                    font-family: $Roboto;
                     color: #62656b;
                     font-size: 1.5em;
                     font-weight: 400;
@@ -445,6 +472,7 @@
         background-color: #f0f2f0;
         border-radius: 5px;
         h4{
+            font-family: $Roboto;
             text-align: center;
             color: black;
             font-size: 1.5em;
@@ -452,10 +480,12 @@
             
         }
         p{
+            font-family: $Roboto;
             color: #62656b;
             font-size: 0.8em;
         }
         h5{
+            font-family: $Zilla;
             color: black;
             font-size: 1.1em;
             margin-top: 30px;
