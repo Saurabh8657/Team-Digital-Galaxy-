@@ -1,0 +1,98 @@
+body{
+    padding: 0px;
+    margin: 0;
+}
+@import "main";
+@import "media";
+
+.logo{
+    width: 80px;
+    height: 100%;
+   // margin-top: 80px;
+}
+
+
+
+
+
+.div2{
+    display: flex;
+     margin-top: 80px;
+}
+.div3{
+    display: flex;
+    margin-top: 80px;
+}
+.audi{
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 4.8px;
+text-transform: uppercase;
+padding-top: 40px;
+}
+.vim{
+    font-family: DM Serif Display;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; 
+}
+.unum{
+    font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.fbutton{
+    width: 150px;
+height: 45px;
+margin-top: 30px;
+flex-shrink: 0;
+color: #434CCC;
+border-color: 
+#d5d8f4;
+
+
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+svg{
+    padding-top: 80px;
+}
+.dicat{
+    font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+}
+.dicat1{
+    padding-top: 60px;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+.div1p{
+    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+    /* Text_Gray */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    padding-top: -40px;
+}
+.ltext1{
+    margin-top: 50px;
+}
