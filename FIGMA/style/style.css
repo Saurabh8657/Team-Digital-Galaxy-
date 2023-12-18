@@ -826,16 +826,16 @@ body {
   margin: 0px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
   #container {
-    width: 100%;
+    width: 375px;
   }
   .sec7 {
-    width: 100%;
+    width: 375px;
     display: inline;
   }
   .sec7 > div:nth-child(1) {
-    width: 539.64px;
+    width: 375px;
     height: 305.2px;
     margin-left: -138.2px;
     margin-right: -26.28px;
@@ -878,7 +878,7 @@ body {
     margin-top: 31px;
   }
   .sec8 {
-    width: 100%;
+    width: 375px;
     display: inline;
   }
   .sec8 > div:nth-child(2) img {
@@ -940,9 +940,9 @@ body {
   height: 352px;
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 480px) {
   .footer1st {
-    width: 100%;
+    width: 375px;
     height: 410px;
   }
 }
@@ -1039,9 +1039,9 @@ h4 {
   line-height: 24px; /* 150% */
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 480px) {
   .footer2nd {
-    width: 100%;
+    width: 375px;
     height: 512px;
     padding: 0%;
     margin: 0%;
@@ -1088,9 +1088,9 @@ h4 {
   line-height: 24px;
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 480px) {
   .lastpart {
-    width: 100%;
+    width: 375px;
     display: block;
     padding: 2%;
   }
@@ -1161,14 +1161,14 @@ h4 {
   height: 48px;
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 480px) {
   #subfooter {
     display: block;
     margin-left: 6%;
-    width: 80%;
+    width: 375px;
   }
   .subfooterfirst {
-    width: 85%;
+    width: 350px;
     padding-top: 7%;
   }
   .subfooterfirst h5 {
@@ -1190,7 +1190,7 @@ h4 {
     line-height: 40px; /* 114.286% */
   }
   .subfootersecond {
-    width: 100%;
+    width: 375px;
   }
   .subfootersecond input {
     margin-top: 10%;
@@ -1199,7 +1199,7 @@ h4 {
     border-radius: 5px;
     border: 1px solid #DADADA;
     background: #FFF;
-    width: 98%;
+    width: 300px;
     height: 48px;
     margin-bottom: 5%;
   }
@@ -1356,4 +1356,10 @@ h4 {
 }
 * {
   margin: auto;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -202,16 +202,16 @@
 }
 
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:480px) {
     #container {
-      width: 100%; 
+      width: 375px; 
     }
   
     .sec7 {
-      width: 100%; 
+      width: 375px; 
       display: inline;
         >div:nth-child(1){
-           width: 539.64px;
+           width: 375px;
            height: 305.20px;
            margin-left: -138.20px;
            margin-right: -26.28px;
@@ -267,7 +267,7 @@
     }
 
     .sec8{
-        width: 100%;
+        width: 375px;
         display: inline;
 
         >div:nth-child(2){
@@ -351,10 +351,11 @@
 }
 
 
- @media all and (max-width:375px){
+ @media all and (max-width:480px){
     .footer1st{
-        width: 100%;
+        width: 375px;
         height: 410px;
+
         }
 }
 $primary-color: rgb(168,169,173);
@@ -465,9 +466,9 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 }
 
-@media all and (max-width:376px){
+@media all and (max-width:480px){
     .footer2nd{
-        width:100%;
+        width:375px;
         height: 512px;
         padding: 0%;
         margin: 0%;
@@ -524,9 +525,9 @@ line-height: 24px; /* 150% */
    }
 }
 
-@media all and (max-width:376px){
+@media all and (max-width:480px){
     .lastpart{
-        width: 100%;
+        width: 375px;
         display: block;
         padding: 2%;
        p{
@@ -607,15 +608,15 @@ border-radius: 5px;
 
 
 
-@media all and (max-width: 376px){
+@media all and (max-width: 480px){
     #subfooter{
         display: block;
         //  border:1px solid red;
         margin-left: 6%;
-        width: 80%;
+        width: 375px;
     }
     .subfooterfirst{
-         width: 85%;
+         width: 350px;
        // border: 1px solid;
         padding-top: 7%;
         h5{
@@ -639,7 +640,7 @@ border-radius: 5px;
         }
     }
     .subfootersecond{
-        width: 100%;
+        width: 375px;
     //    border: 1px solid;
     }
     .subfootersecond input{
@@ -649,7 +650,7 @@ border-radius: 5px;
         border-radius: 5px;
         border: 1px solid #DADADA;
         background: #FFF;
-        width: 98%;
+        width: 300px;
         height: 48px;
         margin-bottom: 5%;
     }
