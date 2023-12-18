@@ -2,12 +2,12 @@
 ### Team :- DIGITAL GALAXY
 
 ### Team Members:
-- Saurabh Sadhan Ganguly fw29_013 |
-- Gulshaba Parveen fw29_ |
-- Abhishek Kumar fw28_276 |
-- Raushan Kumar fw29_ |
+- Saurabh Sadhan Ganguly fw29_013 
+- Gulshaba Parveen fw29_031 
+- Abhishek Kumar fw28_276 
+- Raushan Kumar fw29_122
 
-This represent the TIME web page 
+Glimpse of the TIME web page 
 <img src="/Page_looks/1.png" alt="" />
 <img src="/Page_looks/2.png" alt="" />
 <img src="/Page_looks/3.png" alt="" />
@@ -17,8 +17,15 @@ This represent the TIME web page
 <img src="/Page_looks/7.png" alt="" />
 <img src="/Page_looks/8.png" alt="" />
 
-This represent the FIGMA About page
-
+Glimpse of FIGMA About page
+<img src="/Page_looks/11.png" alt="" />
+<img src="/Page_looks/12.png" alt="" />
+<img src="/Page_looks/13.png" alt="" />
+<img src="/Page_looks/14.png" alt="" />
+<img src="/Page_looks/15.png" alt="" />
+<img src="/Page_looks/16.png" alt="" />
+<img src="/Page_looks/17.png" alt="" />
+<img src="/Page_looks/18.png" alt="" />
 
 
 ### Tech Stacks
