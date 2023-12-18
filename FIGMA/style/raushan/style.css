@@ -1,0 +1,138 @@
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+.main {
+  width: 1440px;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f6fc;
+}
+
+.main2 {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "a1 a2 a3";
+  margin-left: 200px;
+}
+
+.mainmain {
+  width: 100%;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    margin-right: 160px;
+  }
+  .main2 {
+    grid-template-areas: "a1" "a2" "a3";
+  }
+}
+.main2 > div:nth-child(1) .main2 {
+  grid-area: a1;
+}
+
+.main2 > div:nth-child(2) .main2 {
+  grid-area: a2;
+}
+
+.main2 > div:nth-child(3) .main2 {
+  grid-area: a3;
+}
+
+.logo {
+  width: 80px;
+  height: 100%;
+}
+
+.div2 {
+  display: flex;
+  margin-top: 80px;
+}
+
+.div3 {
+  display: flex;
+  margin-top: 80px;
+}
+
+.audi {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.vim {
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.unum {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.fbutton {
+  width: 150px;
+  height: 45px;
+  margin-top: 30px;
+  flex-shrink: 0;
+  color: #434CCC;
+  border-color: #d5d8f4;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+svg {
+  padding-top: 80px;
+}
+
+.dicat {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.dicat1 {
+  padding-top: 60px;
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.div1p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-top: -40px;
+}
+
+.ltext1 {
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
