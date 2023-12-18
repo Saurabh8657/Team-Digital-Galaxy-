@@ -412,6 +412,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   margin-top: 40px;
+  height: -moz-fit-content;
   height: fit-content;
   top: 2105px;
   left: 735px;
@@ -1217,45 +1218,19 @@ h4 {
     border-radius: 5px;
   }
 }
-.main {
+.section-6 {
+  background-color: rgba(67, 76, 204, 0.0515);
   width: 1440px;
-  height: 768px;
-  display: flex;
-  justify-content: center;
-  background-color: #f5f6fc;
 }
-
-.main2 {
-  width: 80%;
-  height: 100%;
+.section-6 .container {
   display: grid;
-  grid-template-areas: "a1 a2 a3";
-  margin-left: 200px;
+  grid-template-columns: 1fr 2fr;
+  padding: 120px;
 }
-
-.mainmain {
-  width: 100%;
-  height: 768px;
-  display: flex;
-  justify-content: center;
+.section-6 .container .section-6-left > h5, .section-6 .container .section-6-left h2, .section-6 .container .section-6-left p, .section-6 .container .section-6-left button {
+  margin: 20px;
 }
-
-.logo {
-  width: 80px;
-  height: 100%;
-}
-
-.div2 {
-  display: flex;
-  margin-top: 80px;
-}
-
-.div3 {
-  display: flex;
-  margin-top: 80px;
-}
-
-.audi {
+.section-6 .container .section-6-left > h5 {
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1263,97 +1238,122 @@ h4 {
   line-height: 24px; /* 150% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
-  padding-top: 40px;
 }
-
-.vim {
+.section-6 .container .section-6-left > h2 {
+  /* H2 */
   font-family: DM Serif Display;
-  font-size: 50px;
+  font-size: 56px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 64px;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
 }
-
-.unum {
+.section-6 .container .section-6-left > p {
   font-family: DM Sans;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
 }
-
-.fbutton {
-  width: 150px;
-  height: 45px;
-  margin-top: 30px;
-  flex-shrink: 0;
-  color: #434CCC;
-  border-color: #d5d8f4;
+.section-6 .container .section-6-left button {
+  width: 170px;
+  height: 48px;
+  border: 1px solid rgb(67, 76, 204);
+  color: rgb(67, 76, 204);
+  border-radius: 5px;
+  background-color: rgba(67, 76, 204, 0.0515);
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 24px; /* 150% */
 }
-
-svg {
-  padding-top: 110px;
+.section-6 .container .section-6-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-
-.dicat {
+.section-6 .container .section-6-right div {
+  display: flex;
+  padding: 2%;
+  gap: 10px;
+}
+.section-6 .container .section-6-right div div {
+  display: flex;
+  flex-direction: column;
+}
+.section-6 .container .section-6-right div div h4 {
+  margin-left: 0%;
   font-family: DM Serif Display;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-  margin-top: 80px;
+  line-height: 32px; /* 133.333% */
 }
-
-.dicat1 {
-  padding-top: 130px;
-  font-family: DM Serif Display;
-  font-weight: 400;
-  font-size: 24px;
-}
-
-.div1p {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  /* Text_Gray */
+.section-6 .container .section-6-right div div p {
+  color: rgb(0, 0, 0);
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
-  padding-top: -40px;
-}
-
-.ltext1 {
-  margin-top: 50px;
 }
 
 @media all and (max-width: 480px) {
-  body {
-    margin-right: 160px;
+  .section-6 {
+    width: 375px;
   }
-  .main2 {
-    grid-template-areas: "a1" "a2" "a3";
+  .section-6 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    width: 375px;
+  }
+  .section-6 .container .section-6-left {
+    padding: 63px 0px;
+    text-align: start;
+  }
+  .section-6 .container .section-6-left h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .section-6 .container .section-6-left p {
+    width: 346px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+  .section-6 .container .section-6-right {
+    grid-template-columns: repeat(1, 1fr);
+    width: 375px;
+    padding-bottom: 49px;
+  }
+  .section-6 .container .section-6-right svg {
+    width: 50px;
+    transform: scale(1.4);
+    padding: 5%;
+    height: 47px;
+  }
+  .section-6 .container .section-6-right h4 {
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+  }
+  .section-6 .container .section-6-right p {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
   }
 }
-.main2 > div:nth-child(1) .main2 {
-  grid-area: a1;
-}
-
-.main2 > div:nth-child(2) .main2 {
-  grid-area: a2;
-}
-
-.main2 > div:nth-child(3) .main2 {
-  grid-area: a3;
-}
-
 * {
   margin: auto;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
