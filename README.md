@@ -35,6 +35,6 @@ HTML | CSS | SASS | Bootstrap
 ### Project Link
 
 - TIME web page link: https://team-digital-galaxy.vercel.app/
-- FIGMA About page link: 
+- FIGMA About page link: https://team-digital-galaxy-z766.vercel.app/
 
 - Github link: https://github.com/Saurabh8657/Team_Digital_Galaxy
